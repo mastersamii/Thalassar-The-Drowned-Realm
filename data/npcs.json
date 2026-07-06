@@ -1,0 +1,41 @@
+[
+{
+"name":"Captain Thalorin Tideborn",
+"race":"Triton",
+"occupation":"Captain of the Tidewardens",
+"status":"Alive",
+"faction":"Atlantis"
+},
+
+{
+"name":"King Aurelion Veyrath IX",
+"race":"Triton",
+"occupation":"King of Atlantis",
+"status":"Alive",
+"faction":"Royal Family"
+},
+
+{
+"name":"Lyra Moonreef",
+"race":"Water Genasi",
+"occupation":"Tidewarden Recruit",
+"status":"Alive",
+"faction":"Squad Nine"
+},
+
+{
+"name":"Kella Tidehopper",
+"race":"Sea Elf",
+"occupation":"Civilian",
+"status":"Alive",
+"faction":"Atlantis"
+},
+
+{
+"name":"Nella Tidehopper",
+"race":"Sea Elf",
+"occupation":"Child",
+"status":"Deceased",
+"faction":"Atlantis"
+}
+]
