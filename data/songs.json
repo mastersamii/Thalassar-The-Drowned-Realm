@@ -1,0 +1,37 @@
+[
+  {
+    "id": "song_beneath_one_tide",
+    "title": "Beneath One Tide",
+    "type": "Anthem",
+    "usedIn": ["session_06"],
+    "description": "The official anthem of Atlantis."
+  },
+  {
+    "id": "song_may_tides_carry_home",
+    "title": "May the Tides Carry You Home",
+    "type": "Funeral Hymn",
+    "usedIn": ["session_02"],
+    "description": "Traditional Atlantean funeral hymn."
+  },
+  {
+    "id": "song_sea_took_more_than_you",
+    "title": "The Sea Took More Than You",
+    "type": "Character Song",
+    "usedIn": ["session_02"],
+    "description": "Kella's grief song after losing Nella."
+  },
+  {
+    "id": "song_deep_remembers",
+    "title": "The Deep Remembers",
+    "type": "Character Song",
+    "usedIn": ["session_03"],
+    "description": "Lyra's wounded Session 3 theme."
+  },
+  {
+    "id": "song_guardians_deep",
+    "title": "Guardians of the Deep",
+    "type": "Academy March",
+    "usedIn": ["session_01", "session_06"],
+    "description": "Tidewarden cadet marching song."
+  }
+]
