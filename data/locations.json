@@ -1,0 +1,178 @@
+[
+  {
+    "id": "atlantis",
+    "name": "Atlantis",
+    "type": "Capital City",
+    "region": "Deep Realm",
+    "status": "Accessible",
+    "parent": null,
+    "image": "assets/images/locations/atlantis.webp",
+    "music": "Beneath One Tide",
+    "description": "The shining capital beneath the sea. Home to the Tidewardens, the Royal Family, and thousands of Atlantean citizens.",
+    "children": [
+      "academy",
+      "silvered-market",
+      "trident-palace",
+      "drowned-ward",
+      "deep-gate",
+      "coral-district",
+      "scholars-deep"
+    ]
+  },
+
+  {
+    "id": "academy",
+    "name": "Tidewarden Academy",
+    "type": "Military Academy",
+    "region": "Atlantis",
+    "status": "Accessible",
+    "parent": "atlantis",
+    "image": "assets/images/locations/academy.webp",
+    "music": "Guardians of the Deep",
+    "description": "Where every Tidewarden begins."
+  },
+
+  {
+    "id": "trident-palace",
+    "name": "Trident Palace",
+    "type": "Royal Palace",
+    "region": "Atlantis",
+    "status": "Restricted",
+    "parent": "atlantis",
+    "image": "assets/images/locations/trident-palace.webp",
+    "music": "For Atlantis",
+    "description": "Seat of King Aurelion Veyrath IX."
+  },
+
+  {
+    "id": "silvered-market",
+    "name": "Silvered Market",
+    "type": "Marketplace",
+    "region": "Atlantis",
+    "status": "Accessible",
+    "parent": "atlantis",
+    "image": "assets/images/locations/silvered-market.webp",
+    "music": "Market Beneath the Waves",
+    "description": "The bustling commercial heart of Atlantis."
+  },
+
+  {
+    "id": "coral-district",
+    "name": "Coral District",
+    "type": "Residential District",
+    "region": "Atlantis",
+    "status": "Accessible",
+    "parent": "atlantis",
+    "image": "assets/images/locations/coral-district.webp",
+    "music": "Coral Dreams",
+    "description": "Home to thousands of Atlantean families."
+  },
+
+  {
+    "id": "scholars-deep",
+    "name": "Scholar's Deep",
+    "type": "Library",
+    "region": "Atlantis",
+    "status": "Restricted",
+    "parent": "atlantis",
+    "image": "assets/images/locations/scholars-deep.webp",
+    "music": "Forgotten Currents",
+    "description": "Ancient archives containing thousands of years of Atlantean history."
+  },
+
+  {
+    "id": "drowned-ward",
+    "name": "The Drowned Ward",
+    "type": "Abandoned District",
+    "region": "Atlantis",
+    "status": "Restricted",
+    "parent": "atlantis",
+    "image": "assets/images/locations/drowned-ward.webp",
+    "music": "Where the Light Fades",
+    "description": "An abandoned section of Atlantis filled with flooded structures and forgotten tunnels."
+  },
+
+  {
+    "id": "deep-gate",
+    "name": "The Deep Gate",
+    "type": "City Gate",
+    "region": "Atlantis",
+    "status": "Accessible",
+    "parent": "atlantis",
+    "image": "assets/images/locations/deep-gate.webp",
+    "music": "Guardians of the Gate",
+    "description": "The massive gate through which military patrols leave Atlantis."
+  },
+
+  {
+    "id": "trench-beacon",
+    "name": "Ancient Trench Beacon",
+    "type": "Military Outpost",
+    "region": "Outer Trench",
+    "status": "Mission Area",
+    "parent": null,
+    "image": "assets/images/locations/trench-beacon.webp",
+    "music": "The Beacon Still Burns",
+    "description": "A colossal Atlantean beacon overlooking an endless abyss."
+  },
+
+  {
+    "id": "deep-trench",
+    "name": "The Endless Trench",
+    "type": "Natural Wonder",
+    "region": "Outer Ocean",
+    "status": "Extremely Dangerous",
+    "parent": null,
+    "image": "assets/images/locations/deep-trench.webp",
+    "music": "Into the Abyss",
+    "description": "No one knows how deep the trench truly goes."
+  },
+
+  {
+    "id": "floating-cities",
+    "name": "Floating Cities",
+    "type": "Surface Civilization",
+    "region": "Surface Realm",
+    "status": "Accessible",
+    "parent": null,
+    "image": "assets/images/locations/floating-city.webp",
+    "music": "Above the Waves",
+    "description": "Massive floating civilizations built upon the endless sea."
+  },
+
+  {
+    "id": "sky-cities",
+    "name": "Sky Cities",
+    "type": "Sky Kingdom",
+    "region": "Sky Realm",
+    "status": "Rare",
+    "parent": null,
+    "image": "assets/images/locations/sky-city.webp",
+    "music": "Among the Clouds",
+    "description": "Legendary cities suspended high above the ocean upon floating islands."
+  },
+
+  {
+    "id": "pirate-fleet",
+    "name": "The Crimson Fleet",
+    "type": "Pirate Armada",
+    "region": "Open Ocean",
+    "status": "Hostile",
+    "parent": null,
+    "image": "assets/images/locations/pirate-fleet.webp",
+    "music": "Raise the Coral Cup",
+    "description": "The most feared pirate fleet sailing the oceans."
+  },
+
+  {
+    "id": "wayfarers-grace",
+    "name": "Wayfarer's Grace",
+    "type": "Merchant City",
+    "region": "Surface Realm",
+    "status": "Accessible",
+    "parent": null,
+    "image": "assets/images/locations/wayfarers-grace.webp",
+    "music": "Ocean Horizons",
+    "description": "A thriving trade city connecting merchants from across Thalassar."
+  }
+]
