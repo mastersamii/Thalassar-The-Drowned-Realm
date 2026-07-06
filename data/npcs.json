@@ -1,6 +1,6 @@
 [
   {
-    "id": "aurelion-veyrath",
+    "id": "npc_aurelion",
     "name": "King Aurelion Veyrath IX",
     "title": "The Tide King",
     "race": "Triton",
@@ -8,34 +8,25 @@
     "age": "Nearly 300+",
     "height": "Unknown",
     "status": "Alive",
-    "faction": "Royal Family of Atlantis",
-    "location": "Trident Palace",
-    "firstAppearance": "Session 2",
+    "faction": "faction_royal_family",
+    "location": "loc_trident_palace",
+    "firstAppearance": "session_02",
     "portrait": "assets/images/npcs/aurelion.webp",
-    "themeSong": "For Atlantis",
+    "themeSong": "song_for_atlantis",
     "tags": ["Royalty", "Atlantis", "Political Power", "DM Secret"],
     "quote": "Order is not cruelty. It is mercy given structure.",
     "publicDescription": "The beloved ruler of Atlantis and protector of the Deep Realm. Most citizens view him as wise, noble, and necessary.",
-    "dmSecret": "Aurelion values stability over truth. He does not view himself as a tyrant, but he has allowed investigations, records, and citizens to disappear when he believes the truth would endanger Atlantis.",
+    "dmSecret": "Aurelion values stability over truth. He does not view himself as a tyrant, but he allows investigations, records, and citizens to disappear when he believes the truth would endanger Atlantis.",
     "relationships": [
-      {
-        "name": "Captain Thalorin Tideborn",
-        "type": "Military subordinate"
-      },
-      {
-        "name": "Commander Vaeloria Stormcurrent",
-        "type": "Trusted commander"
-      },
-      {
-        "name": "Nella Tidehopper",
-        "type": "Publicly mourned civilian child"
-      }
+      { "npc": "npc_thalorin", "type": "Military subordinate" },
+      { "npc": "npc_vaeloria", "type": "Trusted commander" },
+      { "npc": "npc_nella", "type": "Publicly mourned civilian child" }
     ],
-    "appearances": ["Session 2", "Future Sessions"],
+    "appearances": ["session_02"],
     "currentNotes": "His speech after Nella's death should make the players understand why Atlantis loves him."
   },
   {
-    "id": "thalorin-tideborn",
+    "id": "npc_thalorin",
     "name": "Captain Thalorin Tideborn",
     "title": "Captain of the Tidewardens",
     "race": "Axolotl Folk",
@@ -43,34 +34,24 @@
     "age": 45,
     "height": "6'6\"",
     "status": "Alive",
-    "faction": "Tidewardens",
-    "location": "Tidewarden Academy",
-    "firstAppearance": "Session 1",
+    "faction": "faction_tidewardens",
+    "location": "loc_academy",
+    "firstAppearance": "session_01",
     "portrait": "assets/images/npcs/thalorin.webp",
-    "themeSong": "Duty Beneath the Waves",
+    "themeSong": "song_duty_beneath_waves",
     "tags": ["Mentor", "Tidewarden", "Military", "Potential Ally"],
     "quote": "A Tidewarden's duty is not to the throne. It is to the people sleeping safely because you stood watch.",
     "publicDescription": "A respected and protective Tidewarden captain who believes recruits are forged through discipline, honesty, and courage.",
     "dmSecret": "Thalorin has noticed missing reports, suspicious orders, and investigations that vanish. He remains loyal to Atlantis, but he is beginning to question whether loyalty and obedience are the same thing.",
     "relationships": [
-      {
-        "name": "The Player Characters",
-        "type": "Recruits under his command"
-      },
-      {
-        "name": "King Aurelion Veyrath IX",
-        "type": "Ruler he serves"
-      },
-      {
-        "name": "Lyra Moonreef",
-        "type": "Recruit under his protection"
-      }
+      { "npc": "npc_aurelion", "type": "Ruler he serves" },
+      { "npc": "npc_lyra", "type": "Recruit under his protection" }
     ],
-    "appearances": ["Session 1", "Session 3"],
+    "appearances": ["session_01", "session_03"],
     "currentNotes": "Leads the Session 3 mission briefing and reacts strongly when Lyra is injured."
   },
   {
-    "id": "vaeloria-stormcurrent",
+    "id": "npc_vaeloria",
     "name": "Commander Vaeloria Stormcurrent",
     "title": "Commander of the Tidewarden Academy",
     "race": "Triton",
@@ -78,30 +59,23 @@
     "age": 47,
     "height": "6'1\"",
     "status": "Alive",
-    "faction": "Tidewardens",
-    "location": "Tidewarden Academy",
-    "firstAppearance": "Session 1",
+    "faction": "faction_tidewardens",
+    "location": "loc_academy",
+    "firstAppearance": "session_01",
     "portrait": "assets/images/npcs/vaeloria.webp",
-    "themeSong": "The Weight of Duty",
+    "themeSong": "song_weight_of_duty",
     "tags": ["Commander", "Mentor", "Atlantis", "Strict"],
     "quote": "Atlantis is not protected by walls. It is protected by the people willing to stand upon them.",
     "publicDescription": "A disciplined and respected commander who demands excellence from every recruit beneath her command.",
     "dmSecret": "Vaeloria knows some investigations disappear and some records are sealed, but she does not yet understand the full conspiracy.",
     "relationships": [
-      {
-        "name": "Captain Thalorin Tideborn",
-        "type": "Trusted officer"
-      },
-      {
-        "name": "The Player Characters",
-        "type": "Graduating recruits"
-      }
+      { "npc": "npc_thalorin", "type": "Trusted officer" }
     ],
-    "appearances": ["Session 1"],
+    "appearances": ["session_01"],
     "currentNotes": "Should feel intimidating but protective."
   },
   {
-    "id": "thalric-tideborn",
+    "id": "npc_thalric",
     "name": "Sergeant Thalric Tideborn",
     "title": "Academy Sergeant",
     "race": "Triton",
@@ -109,30 +83,23 @@
     "age": 38,
     "height": "6'4\"",
     "status": "Alive",
-    "faction": "Tidewardens",
-    "location": "Tidewarden Academy",
-    "firstAppearance": "Session 1",
+    "faction": "faction_tidewardens",
+    "location": "loc_academy",
+    "firstAppearance": "session_01",
     "portrait": "assets/images/npcs/thalric.webp",
-    "themeSong": "Still Breathing",
+    "themeSong": "song_still_breathing",
     "tags": ["Instructor", "Gruff", "Protective", "Veteran"],
     "quote": "If you're breathing, you're still learning. If you're not breathing, paperwork gets involved.",
     "publicDescription": "A gruff veteran instructor who yells like he hates everyone and protects recruits like they are his children.",
     "dmSecret": "Fifteen years ago, Thalric lost an entire recruit squad during a mission gone wrong. He believes the official report was a lie.",
     "relationships": [
-      {
-        "name": "The Player Characters",
-        "type": "Recruits he trains"
-      },
-      {
-        "name": "Captain Thalorin Tideborn",
-        "type": "Commanding officer"
-      }
+      { "npc": "npc_thalorin", "type": "Commanding officer" }
     ],
-    "appearances": ["Session 1"],
+    "appearances": ["session_01"],
     "currentNotes": "Useful for humor and emotional veteran wisdom."
   },
   {
-    "id": "neros-wavecrest",
+    "id": "npc_neros",
     "name": "Lieutenant Neros Wavecrest",
     "title": "Administrative Officer",
     "race": "Water Genasi",
@@ -140,30 +107,23 @@
     "age": 31,
     "height": "5'11\"",
     "status": "Alive",
-    "faction": "Tidewardens",
-    "location": "Tidewarden Academy",
-    "firstAppearance": "Session 1",
+    "faction": "faction_tidewardens",
+    "location": "loc_academy",
+    "firstAppearance": "session_01",
     "portrait": "assets/images/npcs/neros.webp",
-    "themeSong": "Every Report Tells a Story",
+    "themeSong": "song_every_report_tells_story",
     "tags": ["Investigator", "Officer", "Records", "Potential Target"],
     "quote": "Every report tells a story. Most people simply forget to read it.",
     "publicDescription": "A friendly and sharp administrative officer who remembers names, records, and inconsistencies others miss.",
     "dmSecret": "Neros has found altered academy records and missing reports. Someone has already noticed his questions.",
     "relationships": [
-      {
-        "name": "Commander Vaeloria Stormcurrent",
-        "type": "Officer colleague"
-      },
-      {
-        "name": "The Player Characters",
-        "type": "Recruits he monitors"
-      }
+      { "npc": "npc_vaeloria", "type": "Officer colleague" }
     ],
-    "appearances": ["Session 1", "Future Sessions"],
+    "appearances": ["session_01"],
     "currentNotes": "A strong early ally for investigation scenes."
   },
   {
-    "id": "lyra-moonreef",
+    "id": "npc_lyra",
     "name": "Lyra Moonreef",
     "title": "Tidewarden Recruit",
     "race": "Water Genasi",
@@ -171,34 +131,25 @@
     "age": 23,
     "height": "5'5\"",
     "status": "Alive",
-    "faction": "Squad Nine",
-    "location": "Tidewarden Academy",
-    "firstAppearance": "Session 1",
+    "faction": "faction_squad_nine",
+    "location": "loc_academy",
+    "firstAppearance": "session_01",
     "portrait": "assets/images/npcs/lyra.webp",
-    "themeSong": "The Deep Remembers",
+    "themeSong": "song_deep_remembers",
     "tags": ["Rival Squad", "Romance", "Evaie", "Session 3 Injury"],
     "quote": "You're hiding something. I don't know what it is yet. But I will.",
     "publicDescription": "A quiet, empathetic, and perceptive Water Genasi recruit who notices emotions others try to hide.",
     "dmSecret": "Lyra is not soul-swapped. She is truly Atlantean. She becomes Evaie's love interest after Evaie wakes in Atlantis. During Session 3, Lyra is critically injured and reveals that the ambushers knew the mission was coming.",
     "relationships": [
-      {
-        "name": "Evaie Ternoté",
-        "type": "Romantic interest"
-      },
-      {
-        "name": "Cassia Pearlfin",
-        "type": "Squad leader"
-      },
-      {
-        "name": "Squad Nine",
-        "type": "Rival squad family"
-      }
+      { "pc": "pc_evaie", "type": "Romantic interest" },
+      { "npc": "npc_cassia", "type": "Squad leader" },
+      { "faction": "faction_squad_nine", "type": "Squad family" }
     ],
-    "appearances": ["Session 1", "Session 3"],
+    "appearances": ["session_01", "session_03"],
     "currentNotes": "In Session 3, she is wounded protecting another recruit. Her whispered clue is: 'Someone told them.'"
   },
   {
-    "id": "cassia-pearlfin",
+    "id": "npc_cassia",
     "name": "Cassia Pearlfin",
     "title": "Squad Nine Leader",
     "race": "Sea Elf",
@@ -206,30 +157,24 @@
     "age": 24,
     "height": "5'11\"",
     "status": "Alive",
-    "faction": "Squad Nine",
-    "location": "Tidewarden Academy",
-    "firstAppearance": "Session 1",
+    "faction": "faction_squad_nine",
+    "location": "loc_academy",
+    "firstAppearance": "session_01",
     "portrait": "assets/images/npcs/cassia.webp",
-    "themeSong": "Born to Lead",
+    "themeSong": "song_born_to_lead",
     "tags": ["Rival", "Leader", "Squad Nine"],
     "quote": "Competence isn't arrogance if you're right.",
     "publicDescription": "A confident, tactical, and ambitious recruit expected by many to become a captain one day.",
     "dmSecret": "Cassia genuinely believes strong leadership is necessary for Atlantis to survive. The truth may either humble her or harden her.",
     "relationships": [
-      {
-        "name": "Lyra Moonreef",
-        "type": "Squadmate"
-      },
-      {
-        "name": "The Player Characters",
-        "type": "Rivals"
-      }
+      { "npc": "npc_lyra", "type": "Squadmate" },
+      { "faction": "faction_player_squad", "type": "Rivals" }
     ],
-    "appearances": ["Session 1", "Session 3"],
+    "appearances": ["session_01", "session_03"],
     "currentNotes": "Good choice for rivalry that can become respect."
   },
   {
-    "id": "brakk-deepjaw",
+    "id": "npc_brakk",
     "name": "Brakk Deepjaw",
     "title": "Tidewarden Recruit",
     "race": "Sharkfolk",
@@ -237,30 +182,24 @@
     "age": 27,
     "height": "7'2\"",
     "status": "Alive",
-    "faction": "Squad Nine",
-    "location": "Tidewarden Academy",
-    "firstAppearance": "Session 1",
+    "faction": "faction_squad_nine",
+    "location": "loc_academy",
+    "firstAppearance": "session_01",
     "portrait": "assets/images/npcs/brakk.webp",
-    "themeSong": "One More Round",
+    "themeSong": "song_one_more_round",
     "tags": ["Rival", "Friendly", "Sharkfolk", "Comic Relief"],
     "quote": "Best way to settle disagreement? First one unconscious loses.",
     "publicDescription": "A massive sharkfolk recruit who looks terrifying until he starts talking and becomes somehow worse because he is aggressively friendly.",
     "dmSecret": "Brakk's loyalty is simple and powerful. If the party earns his trust, he becomes one of their loudest defenders.",
     "relationships": [
-      {
-        "name": "Squad Nine",
-        "type": "Squadmate"
-      },
-      {
-        "name": "The Player Characters",
-        "type": "Friendly rivals"
-      }
+      { "faction": "faction_squad_nine", "type": "Squadmate" },
+      { "faction": "faction_player_squad", "type": "Friendly rivals" }
     ],
-    "appearances": ["Session 1"],
+    "appearances": ["session_01"],
     "currentNotes": "Use him to break tension before emotional scenes."
   },
   {
-    "id": "varko-tidewatch",
+    "id": "npc_varko",
     "name": "Varko Tidewatch",
     "title": "Tidewarden Recruit",
     "race": "Locathah",
@@ -268,30 +207,24 @@
     "age": 29,
     "height": "6'0\"",
     "status": "Alive",
-    "faction": "Squad Nine",
-    "location": "Tidewarden Academy",
-    "firstAppearance": "Session 1",
+    "faction": "faction_squad_nine",
+    "location": "loc_academy",
+    "firstAppearance": "session_01",
     "portrait": "assets/images/npcs/varko.webp",
-    "themeSong": "Something Isn't Right",
+    "themeSong": "song_something_isnt_right",
     "tags": ["Rival", "Observer", "Tracker", "Potential Ally"],
     "quote": "Something doesn't feel right.",
     "publicDescription": "A calm and observant Locathah recruit who notices patterns, inconsistencies, and people pretending to be something they are not.",
     "dmSecret": "Varko notices the player characters' strange behavior early but chooses not to report it immediately.",
     "relationships": [
-      {
-        "name": "Squad Nine",
-        "type": "Squadmate"
-      },
-      {
-        "name": "The Player Characters",
-        "type": "Suspicious of them"
-      }
+      { "faction": "faction_squad_nine", "type": "Squadmate" },
+      { "faction": "faction_player_squad", "type": "Suspicious of them" }
     ],
-    "appearances": ["Session 1", "Future Sessions"],
+    "appearances": ["session_01", "session_03"],
     "currentNotes": "He can become the first rival to quietly help the party."
   },
   {
-    "id": "kella-tidehopper",
+    "id": "npc_kella",
     "name": "Kella Tidehopper",
     "title": "Nella's Mother",
     "race": "Sea Elf",
@@ -299,30 +232,24 @@
     "age": "Adult",
     "height": "Unknown",
     "status": "Alive",
-    "faction": "Atlantis Civilians",
-    "location": "Atlantis",
-    "firstAppearance": "Session 2",
+    "faction": "faction_civilians_atlantis",
+    "location": "loc_atlantis",
+    "firstAppearance": "session_02",
     "portrait": "assets/images/npcs/kella.webp",
-    "themeSong": "The Sea Took More Than You",
+    "themeSong": "song_sea_took_more_than_you",
     "tags": ["Civilian", "Grief", "Nella", "Session 2"],
     "quote": "Mothers know when something is wrong.",
     "publicDescription": "A grieving mother whose daughter Nella died beneath the Drowned Ward.",
     "dmSecret": "Kella's instincts are right. Nella's death may have been accidental, but the official story hides what Nella found and why the area mattered.",
     "relationships": [
-      {
-        "name": "Nella Tidehopper",
-        "type": "Daughter"
-      },
-      {
-        "name": "The Player Characters",
-        "type": "Possible investigators"
-      }
+      { "npc": "npc_nella", "type": "Daughter" },
+      { "faction": "faction_player_squad", "type": "Possible investigators" }
     ],
-    "appearances": ["Session 2"],
+    "appearances": ["session_02"],
     "currentNotes": "Her grief should be heartbreaking but not helpless. She senses a cover-up."
   },
   {
-    "id": "nella-tidehopper",
+    "id": "npc_nella",
     "name": "Nella Tidehopper",
     "title": "The Child Who Dreamed of Becoming a Tidewarden",
     "race": "Sea Elf",
@@ -330,26 +257,20 @@
     "age": 8,
     "height": "Child",
     "status": "Deceased",
-    "faction": "Atlantis Civilians",
-    "location": "Drowned Ward",
-    "firstAppearance": "Session 1",
+    "faction": "faction_civilians_atlantis",
+    "location": "loc_drowned_ward",
+    "firstAppearance": "session_01",
     "portrait": "assets/images/npcs/nella.webp",
-    "themeSong": "Tomorrow Never Came",
+    "themeSong": "song_tomorrow_never_came",
     "tags": ["Civilian", "Child", "Session 2", "Emotional Anchor"],
     "quote": "When I grow up, I'm going to be a Tidewarden.",
     "publicDescription": "A curious Atlantean child who loved asking questions, feeding fish, collecting shells, and dreaming about becoming a Tidewarden.",
     "dmSecret": "Nella accidentally found something connected to the larger conspiracy before her death. Her death was not murder, but the cover-up around it matters.",
     "relationships": [
-      {
-        "name": "Kella Tidehopper",
-        "type": "Mother"
-      },
-      {
-        "name": "The Player Characters",
-        "type": "Met during Session 1"
-      }
+      { "npc": "npc_kella", "type": "Mother" },
+      { "faction": "faction_player_squad", "type": "Met during Session 1" }
     ],
-    "appearances": ["Session 1", "Session 2"],
+    "appearances": ["session_01", "session_02"],
     "currentNotes": "Her belongings should include a shell necklace, whale shark sketch, tiny guard toy, and journal."
   }
 ]
