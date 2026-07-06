@@ -1,106 +1,470 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Realm of Thalassar</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #061421;
+      --bg2: #09263a;
+      --card: rgba(7, 29, 45, 0.76);
+      --text: #e9fbff;
+      --muted: #a8cbd5;
+      --gold: #d8b56d;
+      --teal: #36d6d0;
+      --border: rgba(216, 181, 109, 0.35);
+      --shadow: rgba(0, 0, 0, 0.35);
+    }
+    html[data-theme="light"] {
+      --bg: #dff8ff;
+      --bg2: #9edfea;
+      --card: rgba(255, 255, 255, 0.78);
+      --text: #082033;
+      --muted: #31566a;
+      --gold: #9a6b22;
+      --teal: #007d8a;
+      --border: rgba(0, 99, 115, 0.3);
+      --shadow: rgba(0, 54, 70, 0.18);
+    }
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(54, 214, 208, 0.24), transparent 35%),
+        linear-gradient(180deg, var(--bg), var(--bg2));
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background:
+        linear-gradient(115deg, transparent 0%, rgba(255,255,255,0.06) 45%, transparent 60%),
+        radial-gradient(circle at 20% 20%, rgba(255,255,255,0.08), transparent 18%),
+        radial-gradient(circle at 80% 35%, rgba(54,214,208,0.12), transparent 20%);
+      animation: oceanGlow 12s ease-in-out infinite alternate;
+      pointer-events: none;
+      z-index: -2;
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(circle, rgba(255,255,255,0.16) 1px, transparent 1px);
+      background-size: 38px 38px;
+      opacity: 0.18;
+      animation: bubbles 24s linear infinite;
+      pointer-events: none;
+      z-index: -1;
+    }
+    @keyframes oceanGlow {
+      from { transform: translateY(0); opacity: .8; }
+      to { transform: translateY(35px); opacity: 1; }
+    }
+    @keyframes bubbles {
+      from { background-position: 0 0; }
+      to { background-position: 0 -600px; }
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(14px);
+      background: rgba(3, 17, 29, 0.78);
+      border-bottom: 1px solid var(--border);
+    }
+    html[data-theme="light"] header {
+      background: rgba(224, 248, 255, 0.78);
+    }
+    .nav {
+      max-width: 1180px;
+      margin: auto;
+      padding: 14px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+    }
+    .brand {
+      font-family: Cinzel, serif;
+      color: var(--gold);
+      font-size: 1.1rem;
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+    .links {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .links a, button {
+      color: var(--text);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.06);
+      padding: 8px 11px;
+      border-radius: 999px;
+      font-size: .88rem;
+      cursor: pointer;
+    }
+    .links a:hover, button:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+    }
+    .menu-btn {
+      display: none;
+    }
+    main {
+      max-width: 1180px;
+      margin: auto;
+      padding: 28px 18px 80px;
+    }
+    section {
+      margin: 28px 0;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      background: var(--card);
+      box-shadow: 0 20px 60px var(--shadow);
+    }
+    .hero {
+      min-height: 78vh;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 64px 22px;
+    }
+    h1, h2, h3 {
+      font-family: Cinzel, serif;
+      color: var(--gold);
+      margin-top: 0;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 9vw, 6.5rem);
+      line-height: .95;
+      text-shadow: 0 0 30px rgba(54,214,208,.3);
+    }
+    h2 {
+      font-size: clamp(1.8rem, 5vw, 3rem);
+    }
+    p {
+      color: var(--muted);
+      line-height: 1.75;
+      font-size: 1rem;
+    }
+    .tagline {
+      font-size: 1.15rem;
+      max-width: 760px;
+      margin: 20px auto;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+    .btn {
+      display: inline-block;
+      color: var(--bg);
+      background: linear-gradient(135deg, var(--gold), #fff1b8);
+      padding: 13px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 800;
+      border: none;
+    }
+    .btn.secondary {
+      color: var(--text);
+      background: rgba(255,255,255,.08);
+      border: 1px solid var(--border);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .card {
+      padding: 20px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: rgba(255,255,255,0.055);
+    }
+    .card h3 {
+      margin-bottom: 8px;
+    }
+    .card a {
+      color: var(--teal);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .list {
+      display: grid;
+      gap: 10px;
+    }
+    .pill {
+      border: 1px solid var(--border);
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(255,255,255,.05);
+    }
+    footer {
+      text-align: center;
+      padding: 40px 18px;
+      color: var(--muted);
+    }
+    #topBtn {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      display: none;
+      z-index: 30;
+      background: var(--gold);
+      color: #071421;
+      font-weight: 900;
+      border: none;
+      padding: 12px 15px;
+      border-radius: 999px;
+      box-shadow: 0 12px 30px var(--shadow);
+    }
+    @media (max-width: 850px) {
+      .menu-btn {
+        display: inline-block;
+      }
+      .links {
+        display: none;
+        width: 100%;
+        padding-top: 12px;
+      }
+      .links.open {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .nav {
+        flex-wrap: wrap;
+      }
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      section {
+        padding: 22px;
+        border-radius: 22px;
+      }
+    }
+  </style>
 </head>
-<body>
-  <header class="hero">
+<body id="top">
+  <header>
     <nav class="nav">
-      <div class="brand">Thalassar</div>
-      <a href="#world">World</a>
-      <a href="#sessions">Sessions</a>
-      <a href="#npcs">NPCs</a>
-      <a href="#shops">Shops</a>
-      <a href="dm.html">DM Vault</a>
+      <div class="brand">𓇼 THALASSAR</div>
+      <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+      <div class="links" id="navLinks">
+        <a href="#world">World</a>
+        <a href="#atlantis">Atlantis</a>
+        <a href="#sessions">Sessions</a>
+        <a href="#npcs">NPCs</a>
+        <a href="#music">Music</a>
+        <a href="#shops">Shops</a>
+        <a href="#maps">Maps</a>
+        <a href="#dm">DM</a>
+        <button onclick="toggleTheme()">Light / Dark</button>
+      </div>
     </nav>
-    <div class="hero-content">
-      <p class="eyebrow">Welcome to</p>
-      <h1>The Realm of Thalassar</h1>
-      <p class="tagline">An endless ocean. A shining Atlantis. Secrets dangerous enough to drown kingdoms.</p>
-      <a class="button" href="#world">Enter the Realm</a>
-    </div>
   </header>
-
   <main>
-    <section id="world" class="section">
-      <h2>World Codex</h2>
-      <div class="grid cards">
-        <article class="card">
-          <h3>Atlantis</h3>
-          <p>A glowing underwater civilization of coral towers, Tidewardens, royal secrets, and ancient power.</p>
-        </article>
-        <article class="card">
-          <h3>The Surface Realm</h3>
-          <p>Floating cities, merchant fleets, remote settlements, pirate routes, and sky kingdoms above the sea.</p>
-        </article>
-        <article class="card">
-          <h3>The Drowned Ward</h3>
-          <p>A sealed district of Atlantis, abandoned for reasons official records do not fully explain.</p>
-        </article>
+    <section class="hero">
+      <div>
+        <h1>The Realm<br>of Thalassar</h1>
+        <p class="tagline">
+          An endless ocean world of floating cities, sky kingdoms, ancient ruins, and Atlantis beneath the waves.
+          Some secrets were buried for a reason. Some truths are dangerous enough to drown kingdoms.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#world">Enter the Realm</a>
+          <a class="btn secondary" href="#sessions">Session Guide</a>
+        </div>
       </div>
     </section>
-
-    <section id="sessions" class="section dark">
-      <h2>Session Journal</h2>
-      <div class="timeline">
-        <article>
-          <span>Session 1</span>
-          <h3>Awakening Beneath the Waves</h3>
-          <p>The heroes awaken in Tidewarden bodies that are not their own.</p>
-        </article>
-        <article>
-          <span>Session 2</span>
-          <h3>The Missing Child</h3>
-          <p>Nella Tidehopper vanishes, revealing grief, cover-ups, and the first cracks in Atlantis.</p>
-        </article>
-        <article>
-          <span>Session 3</span>
-          <h3>Shadows Beneath Atlantis</h3>
-          <p>A beacon recovery mission becomes an ambush, and Lyra reveals the mission was leaked.</p>
-        </article>
+    <section id="world">
+      <h2>World Atlas</h2>
+      <p>
+        Thalassar is a world without land. Civilization survives upon floating cities, merchant fleets,
+        remote raft settlements, sky cities, and the great underwater kingdom of Atlantis.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <h3>Surface Realm</h3>
+          <p>Floating cities, trade routes, pirates, storm kingdoms, and the Council of Tides.</p>
+          <a href="#">Add surface page later →</a>
+        </div>
+        <div class="card">
+          <h3>Sky Cities</h3>
+          <p>Rare floating kingdoms above the clouds, home to skyrays, storm culture, and forgotten lineages.</p>
+          <a href="#">Add sky page later →</a>
+        </div>
+        <div class="card">
+          <h3>The Deep Realm</h3>
+          <p>Atlantis and the underwater world below, full of beauty, order, control, and hidden truths.</p>
+          <a href="#atlantis">View Atlantis →</a>
+        </div>
       </div>
     </section>
-
-    <section id="npcs" class="section">
+    <section id="atlantis">
+      <h2>Atlantis</h2>
+      <p>
+        Atlantis is the greatest city beneath the sea. Its coral towers glow with bioluminescent light,
+        its streets are watched by the Tidewardens, and its citizens believe they live in the safest civilization in the world.
+      </p>
+      <div class="list">
+        <div class="pill"><strong>Trident Palace:</strong> Seat of King Aurelion Veyrath IX.</div>
+        <div class="pill"><strong>Tidewarden Headquarters:</strong> Command center of Atlantis's military force.</div>
+        <div class="pill"><strong>Silvered Market:</strong> The living heart of the city.</div>
+        <div class="pill"><strong>The Drowned Ward:</strong> Abandoned, restricted, and full of secrets.</div>
+      </div>
+    </section>
+    <section id="sessions">
+      <h2>Session Guide</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Session 1</h3>
+          <p>Awakening beneath the waves. The characters realize they are living lives that are not their own.</p>
+        </div>
+        <div class="card">
+          <h3>Session 2</h3>
+          <p>The missing child investigation. Nella, the Drowned Ward, grief, and the first major fracture in trust.</p>
+        </div>
+        <div class="card">
+          <h3>Session 3</h3>
+          <p>The Trench Beacon mission. Ambush, Lyra's injury, and proof of an information leak.</p>
+        </div>
+      </div>
+    </section>
+    <section id="npcs">
       <h2>Important NPCs</h2>
-      <div class="grid cards">
-        <article class="card npc">
+      <div class="grid">
+        <div class="card">
+          <h3>King Aurelion Veyrath IX</h3>
+          <p>The Tide King. Beloved ruler, guardian of Atlantis, and keeper of dangerous secrets.</p>
+        </div>
+        <div class="card">
           <h3>Captain Thalorin Tideborn</h3>
-          <p>Protective Tidewarden commander who believes loyalty to Atlantis may not always mean obedience.</p>
-        </article>
-        <article class="card npc">
+          <p>A respected Tidewarden commander beginning to question whether loyalty and obedience are the same thing.</p>
+        </div>
+        <div class="card">
           <h3>Lyra Moonreef</h3>
-          <p>A perceptive Water Genasi recruit from Squad 9. Evaie’s developing love interest.</p>
-        </article>
-        <article class="card npc">
+          <p>A perceptive Water Genasi recruit from the rival squad. Evaie's developing love interest.</p>
+        </div>
+        <div class="card">
           <h3>Kella Tidehopper</h3>
-          <p>Nella’s grieving mother, convinced there is more behind her daughter’s death.</p>
-        </article>
+          <p>Nella's grieving mother, who believes there is more behind her daughter's death.</p>
+        </div>
+        <div class="card">
+          <h3>Nella Tidehopper</h3>
+          <p>A curious child who dreamed of becoming a Tidewarden. Her death changes everything.</p>
+        </div>
+        <div class="card">
+          <h3>Squad 9</h3>
+          <p>Cassia, Brakk, Selene, Varko, Kessa, Taryn, and Lyra.</p>
+        </div>
       </div>
     </section>
-
-    <section id="shops" class="section dark">
-      <h2>Shops & Services</h2>
-      <div class="grid cards">
-        <article class="card">
-          <h3>Zarik’s Kelp Garden</h3>
-          <p>Kelp blends, Dr. Kelp drinks, Diet Dr. Kelp, and Kelp Shrooms.</p>
-        </article>
-        <article class="card">
-          <h3>The Salty Eel Tavern</h3>
-          <p>Food, drinks, tavern songs, and The Captain’s Challenge.</p>
-        </article>
+    <section id="music">
+      <h2>Music of Thalassar</h2>
+      <p>
+        Add your Suno links here as you create them. Use this section as your campaign soundtrack library.
+      </p>
+      <div class="list">
+        <div class="pill"><strong>Anthem of Atlantis:</strong> Beneath One Tide</div>
+        <div class="pill"><strong>Funeral Hymn:</strong> May the Tides Carry You Home</div>
+        <div class="pill"><strong>Session 2:</strong> The Sea Took More Than You</div>
+        <div class="pill"><strong>Session 3:</strong> The Deep Remembers</div>
       </div>
+    </section>
+    <section id="shops">
+      <h2>Shops & Taverns</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Zarik's Kelp Garden</h3>
+          <p>Kelp blends, Dr. Kelp drinks, Diet Dr. Kelp, and Kelp Shrooms.</p>
+        </div>
+        <div class="card">
+          <h3>The Salty Eel Tavern</h3>
+          <p>Atlantis's favorite underwater bar, serving seafood, kelp brews, and dangerous cocktails.</p>
+        </div>
+        <div class="card">
+          <h3>Coral Forge Armory</h3>
+          <p>Weapons, armor, shields, and Tidewarden gear.</p>
+        </div>
+      </div>
+    </section>
+    <section id="maps">
+      <h2>Maps & Gallery</h2>
+      <p>
+        Add your world map, Atlantis map, Drowned Ward tunnels, Trench Beacon battle map,
+        and character art here.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <h3>World Map</h3>
+          <p>Surface routes, sky cities, pirate waters, and hidden regions.</p>
+        </div>
+        <div class="card">
+          <h3>Atlantis Map</h3>
+          <p>Districts, gates, academy grounds, and restricted zones.</p>
+        </div>
+        <div class="card">
+          <h3>Battle Maps</h3>
+          <p>Drowned Ward tunnels, Trench Beacon, academy maps, and ruins.</p>
+        </div>
+      </div>
+    </section>
+    <section id="dm">
+      <h2>DM Portal</h2>
+      <p>
+        This section can later link to a hidden DM page with secrets, conspiracy notes, encounter tables,
+        NPC secrets, and unrevealed lore.
+      </p>
+      <a class="btn" href="#">Add DM page later</a>
     </section>
   </main>
-
+  <button id="topBtn" onclick="scrollToTop()">↑ Top</button>
   <footer>
-    <p>The sea remembers all.</p>
+    The sea remembers all. © Thalassar Campaign Companion
   </footer>
-
-  <script src="script.js"></script>
+  <script>
+    const navLinks = document.getElementById("navLinks");
+    const topBtn = document.getElementById("topBtn");
+    function toggleMenu() {
+      navLinks.classList.toggle("open");
+    }
+    function toggleTheme() {
+      const html = document.documentElement;
+      const current = html.getAttribute("data-theme");
+      const next = current === "dark" ? "light" : "dark";
+      html.setAttribute("data-theme", next);
+      localStorage.setItem("thalassar-theme", next);
+    }
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    window.addEventListener("scroll", () => {
+      topBtn.style.display = window.scrollY > 450 ? "block" : "none";
+    });
+    const savedTheme = localStorage.getItem("thalassar-theme");
+    document.documentElement.setAttribute("data-theme", savedTheme || "dark");
+  </script>
 </body>
 </html>
