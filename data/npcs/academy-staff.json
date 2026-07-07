@@ -1,0 +1,116 @@
+[
+  {
+    "id": "npc_vaeloria_stormcurrent",
+    "name": "Commander Vaeloria Stormcurrent",
+    "race": "Triton",
+    "age": 47,
+    "height": "6'1\"",
+    "role": "Commander of the Tidewarden Academy",
+    "location": "loc_academy",
+    "organization": "org_tidewarden_academy",
+    "faction": "faction_tidewardens",
+    "knowledgeLevel": "Public",
+    "appearance": "A tall Triton woman with deep sapphire skin, polished blue-and-gold command armor, long silver-white braided hair threaded with silver rings and military honors, a jagged scar along her jaw, and turquoise eyes that miss nothing.",
+    "personality": "Disciplined, patient, respected, demanding, and genuinely protective of the recruits under her command.",
+    "relationshipToParty": "At first, the players are simply another graduating squad. As they distinguish themselves, Vaeloria begins paying closer attention and may become either a powerful ally or obstacle.",
+    "favoriteQuote": "Atlantis is not protected by walls. It is protected by the people willing to stand upon them.",
+    "secret": "Vaeloria believes Atlantis is a force for good. She knows certain records have been sealed and some investigations disappear, but she does not know why.",
+    "combatStyle": [
+      "Veteran battlefield commander",
+      "Trident and shield",
+      "Water magic",
+      "Tactical leadership"
+    ]
+  },
+  {
+    "id": "npc_thalorin_tideborn",
+    "name": "Captain Thalorin Tideborn",
+    "race": "Axolotl Folk",
+    "age": 45,
+    "height": "6'6\"",
+    "role": "Captain of the Tidewardens",
+    "location": "loc_academy",
+    "organization": "org_tidewarden_academy",
+    "faction": "faction_tidewardens",
+    "knowledgeLevel": "Public",
+    "appearance": "A towering Axolotl Folk with deep blue-gray skin, faint bioluminescent markings, large crimson gills, silver-white swept-back hair, a neatly trimmed beard, old scars, and worn blue-and-gold command armor.",
+    "personality": "Patient, disciplined, protective, and observant. He believes great Tidewardens are forged through character, discipline, and courage.",
+    "relationshipToParty": "At first, he views the party as another graduating squad. Their strange behavior draws his attention, but instead of reporting it, he observes.",
+    "favoriteQuote": "A Tidewarden's duty is not to the throne. It is to the people sleeping safely because you stood watch.",
+    "secret": "Thalorin has noticed investigations that vanish, witnesses reassigned without explanation, and unjustified orders from above. He remains loyal to Atlantis but questions whether loyalty and obedience are the same thing.",
+    "combatStyle": [
+      "Veteran front-line commander",
+      "Trident mastery",
+      "Defensive water magic",
+      "Protective battlefield tactics",
+      "Controls the battlefield while keeping allies alive"
+    ]
+  },
+  {
+    "id": "npc_thalric_tideborn",
+    "name": "Sergeant Thalric Tideborn",
+    "race": "Triton",
+    "age": 38,
+    "height": "6'4\"",
+    "role": "Academy Sergeant",
+    "location": "loc_academy",
+    "organization": "org_tidewarden_academy",
+    "faction": "faction_tidewardens",
+    "knowledgeLevel": "Public",
+    "appearance": "A broad-shouldered Triton with dark blue skin, old scars, a thick silver-threaded beard, a perpetually disappointed expression, and armor covered in scratches, dents, and repairs.",
+    "personality": "Gruff, protective, practical, and sarcastic. He acts like recruits are ruining his day, but he genuinely wants every recruit to survive.",
+    "relationshipToParty": "The first authority figure they encounter. He constantly corrects them and eventually becomes a mentor figure.",
+    "favoriteQuote": "If you're breathing, you're still learning. If you're not breathing, paperwork gets involved.",
+    "secret": "Fifteen years ago, Thalric lost an entire recruit squad during a mission gone wrong. The incident was ruled unavoidable, but he disagrees. Their names are engraved inside his shield.",
+    "combatStyle": [
+      "Shield specialist",
+      "Defensive fighter",
+      "Frontline protector"
+    ]
+  },
+  {
+    "id": "npc_vexa_coralguard",
+    "name": "Sergeant Vexa Coralguard",
+    "race": "Sea Elf",
+    "age": 35,
+    "height": "5'10\"",
+    "role": "Academy Instructor",
+    "location": "loc_academy",
+    "organization": "org_tidewarden_academy",
+    "faction": "faction_tidewardens",
+    "knowledgeLevel": "Public",
+    "appearance": "A Sea Elf woman with crimson hair, golden eyes, perfectly maintained armor, and an aura of deliberate control.",
+    "personality": "Sharp, intelligent, competitive, and demanding. She believes pressure creates excellence and rarely gives praise.",
+    "relationshipToParty": "One of the primary instructors assigned to the graduating class. She frequently challenges and criticizes them, but secretly enjoys watching them succeed.",
+    "favoriteQuote": "Potential is worthless. Results are what matter.",
+    "secret": "Before joining the academy, Vexa served in Tidewarden Intelligence and uncovered information she was ordered to forget. She obeyed, but the decision still haunts her.",
+    "combatStyle": [
+      "Dual blades",
+      "Mobility fighter",
+      "Precision strikes"
+    ]
+  },
+  {
+    "id": "npc_neros_wavecrest",
+    "name": "Lieutenant Neros Wavecrest",
+    "race": "Water Genasi",
+    "age": 31,
+    "height": "5'11\"",
+    "role": "Administrative Officer",
+    "location": "loc_academy",
+    "organization": "org_tidewarden_academy",
+    "faction": "faction_tidewardens",
+    "knowledgeLevel": "Public",
+    "appearance": "A Water Genasi officer with translucent skin like calm ocean water, pale blue hair drifting weightlessly, and arms usually full of scrolls, reports, or ledgers.",
+    "personality": "Friendly, approachable, intelligent, and curious. He remembers names, birthdays, graduation scores, and family histories.",
+    "relationshipToParty": "Frequently handles recruit records and mission briefings. One of the first officers the party may begin trusting.",
+    "favoriteQuote": "Every report tells a story. Most people simply forget to read it.",
+    "secret": "Neros has discovered missing reports, altered assignments, and graduates who officially never existed. Someone has noticed his questions.",
+    "combatStyle": [
+      "Support caster",
+      "Water magic",
+      "Battlefield control",
+      "Tactical coordination"
+    ]
+  }
+]
