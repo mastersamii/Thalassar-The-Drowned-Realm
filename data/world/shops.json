@@ -1,0 +1,193 @@
+[
+  {
+    "id": "shop_coral_forge_armory",
+    "name": "Coral Forge Armory",
+    "district": "loc_artisans_below",
+    "category": "Weapons & Armor",
+    "owner": "npc_thorek_ironshell",
+    "faction": "faction_merchant_consortium",
+    "icon": "shield",
+    "description": "Atlantis' premier armory, supplying Tidewardens, adventurers, and merchants alike.",
+    "inventoryFile": "shop-coral-forge.json",
+    "services": [
+      "Buy Weapons",
+      "Buy Armor",
+      "Armor Repairs",
+      "Shield Repairs",
+      "Weapon Repairs",
+      "Custom Orders"
+    ],
+    "hours": {
+      "open": "08:00",
+      "close": "18:00"
+    }
+  },
+  {
+    "id": "shop_current_cog_tinkery",
+    "name": "Current & Cog Tinkery",
+    "district": "loc_artisans_below",
+    "category": "Artificer",
+    "owner": "npc_vexa_gearfin",
+    "faction": "faction_merchant_consortium",
+    "icon": "gear",
+    "description": "Experimental gadgets, navigation tools, inventions, and artificer equipment.",
+    "inventoryFile": "shop-current-cog.json",
+    "services": [
+      "Buy Tools",
+      "Repair Gadgets",
+      "Commission Inventions"
+    ],
+    "hours": {
+      "open": "09:00",
+      "close": "19:00"
+    }
+  },
+  {
+    "id": "shop_mooncurrent_tailors",
+    "name": "Mooncurrent Tailors",
+    "district": "loc_artisans_below",
+    "category": "Clothing",
+    "owner": "npc_elara_seasilk",
+    "faction": "faction_merchant_consortium",
+    "icon": "shirt",
+    "description": "Luxury clothing, uniforms, noble attire, and custom tailoring.",
+    "inventoryFile": "shop-tailors.json",
+    "services": [
+      "Buy Clothing",
+      "Custom Tailoring",
+      "Uniform Alterations"
+    ],
+    "hours": {
+      "open": "09:00",
+      "close": "18:00"
+    }
+  },
+  {
+    "id": "shop_pearlroot_apothecary",
+    "name": "Pearlroot Apothecary",
+    "district": "loc_artisans_below",
+    "category": "Alchemy",
+    "owner": "npc_nym_coralbloom",
+    "faction": "faction_merchant_consortium",
+    "icon": "flask",
+    "description": "Healing potions, herbs, medicines, alchemical ingredients, and remedies.",
+    "inventoryFile": "shop-apothecary.json",
+    "services": [
+      "Buy Potions",
+      "Buy Herbs",
+      "Medical Treatment",
+      "Identify Plants"
+    ],
+    "hours": {
+      "open": "07:00",
+      "close": "20:00"
+    }
+  },
+  {
+    "id": "shop_pearl_ledger",
+    "name": "The Pearl Ledger",
+    "district": "loc_silvered_market",
+    "category": "General Goods",
+    "owner": "npc_sylla_inkstream",
+    "faction": "faction_merchant_consortium",
+    "icon": "backpack",
+    "description": "Everything an adventurer could need for everyday travel.",
+    "inventoryFile": "shop-general-goods.json",
+    "services": [
+      "Buy Adventuring Gear",
+      "Maps",
+      "Travel Supplies"
+    ],
+    "hours": {
+      "open": "08:00",
+      "close": "20:00"
+    }
+  },
+  {
+    "id": "shop_salty_eel_tavern",
+    "name": "The Salty Eel Tavern",
+    "district": "loc_silvered_market",
+    "category": "Inn & Tavern",
+    "owner": "npc_brutus_blackfin",
+    "faction": "faction_merchant_consortium",
+    "icon": "beer",
+    "description": "The most famous tavern in Atlantis, known for food, music, drinks, rumors, and retired Tidewardens.",
+    "inventoryFile": "shop-salty-eel.json",
+    "services": [
+      "Food",
+      "Rooms",
+      "Drinks",
+      "Rumors",
+      "Quest Hooks"
+    ],
+    "hours": {
+      "open": "Always",
+      "close": "Never"
+    }
+  },
+  {
+    "id": "shop_zariks_kelp_garden",
+    "name": "Zarik's Kelp Garden",
+    "district": "loc_silvered_market",
+    "category": "Kelp Products",
+    "owner": "npc_zarik",
+    "faction": "faction_merchant_consortium",
+    "icon": "leaf",
+    "description": "Home of Atlantis' famous Kelp Blends, Dr. Kelp, Diet Dr. Kelp, and Kelp Shrooms.",
+    "inventoryFile": "shop-kelp-garden.json",
+    "services": [
+      "Kelp Blends",
+      "Kelp Shrooms",
+      "Dr. Kelp",
+      "Diet Dr. Kelp"
+    ],
+    "hours": {
+      "open": "09:00",
+      "close": "18:00"
+    }
+  },
+  {
+    "id": "shop_food_spice_market",
+    "name": "Food & Spice Market",
+    "district": "loc_silvered_market",
+    "category": "Food",
+    "owner": [
+      "npc_marek_shellbrew",
+      "npc_orrin_deepcurrent"
+    ],
+    "faction": "faction_merchant_consortium",
+    "icon": "apple",
+    "description": "Fresh seafood, spices, tea, fruit, vegetables, and imported surface ingredients.",
+    "inventoryFile": "shop-food-market.json",
+    "services": [
+      "Food",
+      "Tea",
+      "Cooking Ingredients"
+    ],
+    "hours": {
+      "open": "06:00",
+      "close": "18:00"
+    }
+  },
+  {
+    "id": "shop_exotic_goods_bazaar",
+    "name": "Exotic Goods Bazaar",
+    "district": "loc_silvered_market",
+    "category": "Luxury Goods",
+    "owner": "npc_talia_pearlfin",
+    "faction": "faction_merchant_consortium",
+    "icon": "gem",
+    "description": "Rare treasures, imported curiosities, magical trinkets, jewelry, and collector's items.",
+    "inventoryFile": "shop-exotic-goods.json",
+    "services": [
+      "Luxury Goods",
+      "Jewelry",
+      "Rare Imports",
+      "Curiosities"
+    ],
+    "hours": {
+      "open": "10:00",
+      "close": "18:00"
+    }
+  }
+]
