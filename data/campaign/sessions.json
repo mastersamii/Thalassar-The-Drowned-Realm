@@ -1,0 +1,217 @@
+[
+  {
+    "id": "session_01",
+    "number": 1,
+    "title": "Awakening Beneath the Waves",
+    "chapter": 6,
+    "act": "act_01",
+    "level": 5,
+    "summary": "The characters awaken in Tidewarden recruit bodies, meet academy staff and Squad 9, complete training exercises, patrol the Silvered Market, and meet Nella and Kella.",
+    "majorScenes": [
+      "Opening Scene",
+      "Morning Formation",
+      "Academy Exercises",
+      "Midday Meal",
+      "Strange Memory Event",
+      "First Assignment",
+      "Silvered Market Patrol",
+      "Nella Tidehopper"
+    ],
+    "locations": [
+      "loc_barracks_tides",
+      "loc_training_grounds",
+      "loc_silvered_market"
+    ],
+    "npcs": [
+      "npc_thalric_tideborn",
+      "npc_vaeloria_stormcurrent",
+      "npc_neros_wavecrest",
+      "npc_cassia_pearlfin",
+      "npc_brakk_deepjaw",
+      "npc_selene_waveglass",
+      "npc_varko_tidewatch",
+      "npc_kessa_glowfin",
+      "npc_taryn_blackcurrent",
+      "npc_lyra_moonreef",
+      "npc_nella_tidehopper",
+      "npc_kella_tidehopper"
+    ],
+    "rewards": [
+      "Good Luck Shell",
+      "First hidden compartment clues",
+      "Market relationships"
+    ],
+    "milestoneLevelAfter": null,
+    "knowledgeLevel": "Public"
+  },
+  {
+    "id": "session_02",
+    "number": 2,
+    "title": "The Missing Child",
+    "chapter": 7,
+    "act": "act_01",
+    "level": 5,
+    "summary": "Nella disappears. The recruits investigate, enter the maintenance tunnels, discover her body, witness Kella's grief, hear the king's address, and attend Nella's funeral.",
+    "majorScenes": [
+      "Morning Formation",
+      "Missing Child Announcement",
+      "Missing Posters",
+      "Investigation",
+      "Witnesses",
+      "Maintenance Tunnels",
+      "Discovery of Nella",
+      "Tidewarden Response",
+      "Kella's Grief",
+      "The King's Address",
+      "Funeral of Nella",
+      "Free Time",
+      "Memory Fragment"
+    ],
+    "locations": [
+      "loc_silvered_market",
+      "loc_drowned_ward",
+      "loc_nella_tunnels",
+      "loc_coral_gardens"
+    ],
+    "npcs": [
+      "npc_nella_tidehopper",
+      "npc_kella_tidehopper",
+      "npc_king_aurelion_veyrath_ix",
+      "npc_thalorin_tideborn",
+      "npc_vaeloria_stormcurrent"
+    ],
+    "rewards": [
+      "Nella's belongings",
+      "Blue crystal shard",
+      "First major conspiracy clue"
+    ],
+    "milestoneLevelAfter": null,
+    "knowledgeLevel": "Public"
+  },
+  {
+    "id": "session_03",
+    "number": 3,
+    "title": "Shadows Beneath Atlantis",
+    "chapter": 8,
+    "act": "act_01",
+    "level": 5,
+    "summary": "The recruits leave Atlantis for the Trench Beacon mission. The beacon becomes an ambush, revealing that someone leaked the mission route.",
+    "majorScenes": [
+      "First Assignment Beyond Atlantis",
+      "Beacon Recovery Mission",
+      "The Ambush",
+      "Enemy Assault",
+      "The Information Leak",
+      "Fallen Recruit",
+      "Return to Atlantis"
+    ],
+    "locations": [
+      "loc_deep_gate",
+      "loc_trench_beacon",
+      "loc_deep_trench"
+    ],
+    "npcs": [
+      "npc_thalorin_tideborn",
+      "npc_lyra_moonreef",
+      "npc_cassia_pearlfin",
+      "npc_brakk_deepjaw",
+      "npc_varko_tidewatch"
+    ],
+    "rewards": [
+      "Proof of information leak",
+      "Evidence from the beacon",
+      "Lyra injury clue"
+    ],
+    "milestoneLevelAfter": 6,
+    "knowledgeLevel": "Public"
+  },
+  {
+    "id": "session_04",
+    "number": 4,
+    "title": "Family Day",
+    "chapter": 9,
+    "act": "act_01",
+    "level": 6,
+    "summary": "Families arrive at the academy, forcing the characters to deal with relationships and hidden clues from the lives they inherited.",
+    "majorScenes": [
+      "Family Arrivals",
+      "Family Interactions",
+      "Hidden Clues"
+    ],
+    "locations": [
+      "loc_academy",
+      "loc_barracks_tides"
+    ],
+    "npcs": [],
+    "rewards": [
+      "Family clues",
+      "Original recruit identity clues"
+    ],
+    "milestoneLevelAfter": null,
+    "knowledgeLevel": "Public"
+  },
+  {
+    "id": "session_05",
+    "number": 5,
+    "title": "Final Examination",
+    "chapter": 10,
+    "act": "act_01",
+    "level": 6,
+    "summary": "The final examination becomes a real mission that leads to a hidden facility, Project Tidefall, and the Experimental Deepborn Hybrid.",
+    "majorScenes": [
+      "Navigation Examination",
+      "The Beacon",
+      "Rescue Operation",
+      "Hidden Facility",
+      "Project Tidefall",
+      "Experimental Deepborn Hybrid",
+      "Captain Thalorin's Revelation"
+    ],
+    "locations": [
+      "loc_hidden_facility"
+    ],
+    "npcs": [
+      "npc_thalorin_tideborn"
+    ],
+    "rewards": [
+      "Project Tidefall document",
+      "Evidence: Authorized by Order of the Crown"
+    ],
+    "milestoneLevelAfter": null,
+    "knowledgeLevel": "Restricted"
+  },
+  {
+    "id": "session_06",
+    "number": 6,
+    "title": "Graduation of the Tidewardens",
+    "chapter": 11,
+    "act": "act_01",
+    "level": 6,
+    "summary": "Graduation day begins with celebration and the Festival of the First Tide, but Atlantis is attacked by the Abyssal Maw before the recruits become full Tidewardens.",
+    "majorScenes": [
+      "Graduation Ceremony",
+      "The Abyssal Maw Attack",
+      "Defense of Atlantis",
+      "Tidewarden Recognition",
+      "The Spiral Message",
+      "Meet Me Beneath the City"
+    ],
+    "locations": [
+      "loc_atlantis",
+      "loc_training_grounds",
+      "loc_deep_gate"
+    ],
+    "npcs": [
+      "npc_vaeloria_stormcurrent",
+      "npc_thalorin_tideborn",
+      "npc_king_aurelion_veyrath_ix"
+    ],
+    "rewards": [
+      "Official Tidewarden status",
+      "Tidewarden recognition",
+      "Spiral Message"
+    ],
+    "milestoneLevelAfter": 7,
+    "knowledgeLevel": "Public"
+  }
+]
