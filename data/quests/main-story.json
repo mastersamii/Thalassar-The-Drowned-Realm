@@ -1,0 +1,235 @@
+[
+  {
+    "id": "quest_session_01",
+    "session": "session_01",
+    "name": "Awakening Beneath the Waves",
+    "type": "Main Story",
+    "recommendedLevel": 5,
+    "milestoneLevelAfter": null,
+    "summary": "The characters awaken in Tidewarden recruit bodies, survive their first day at the academy, meet Squad 9, complete training exercises, and receive their first routine assignment: patrol the Silvered Market.",
+    "objectives": [
+      "Awaken in the Barracks of Tides",
+      "Search belongings and notice the body swap",
+      "Report to morning formation",
+      "Meet Commander Vaeloria",
+      "Meet Squad 9",
+      "Complete academy exercises",
+      "Attend the first assignment briefing",
+      "Patrol the Silvered Market",
+      "Assist civilians",
+      "Meet merchants and market NPCs",
+      "Meet Nella and Kella Tidehopper",
+      "Return to the barracks"
+    ],
+    "majorNPCs": [
+      "npc_vaeloria_stormcurrent",
+      "npc_thalric_tideborn",
+      "npc_neros_wavecrest",
+      "npc_nella_tidehopper",
+      "npc_kella_tidehopper",
+      "npc_cassia_pearlfin",
+      "npc_brakk_deepjaw",
+      "npc_lyra_moonreef"
+    ],
+    "majorLocations": [
+      "loc_barracks_tides",
+      "loc_training_grounds",
+      "loc_silvered_market",
+      "market_central_plaza",
+      "market_algae_lantern_garden"
+    ],
+    "rewards": [
+      "Good Luck Shell from Nella if treated kindly",
+      "Market relationships",
+      "First body-swap clues"
+    ],
+    "dmNotes": "This session should make Atlantis feel safe, alive, and worth protecting. The market patrol is intentionally mundane so Nella and the civilians matter later."
+  },
+  {
+    "id": "quest_session_02",
+    "session": "session_02",
+    "name": "The Missing Child",
+    "type": "Main Story",
+    "recommendedLevel": 5,
+    "milestoneLevelAfter": null,
+    "summary": "Nella Tidehopper disappears. The recruits investigate the Silvered Market, follow clues into hidden areas, discover Nella's fate, and witness Atlantis begin blaming the Surface Realm.",
+    "objectives": [
+      "Receive the missing child announcement",
+      "Find the missing posters",
+      "Question witnesses",
+      "Investigate the Silvered Market",
+      "Enter the maintenance tunnels",
+      "Discover evidence near the scene",
+      "Find Nella",
+      "Return to Kella",
+      "Witness King Aurelion's address",
+      "Attend Nella's funeral",
+      "Receive the memory fragment: They'll blame the surface"
+    ],
+    "majorNPCs": [
+      "npc_nella_tidehopper",
+      "npc_kella_tidehopper",
+      "npc_thalorin_tideborn",
+      "npc_vaeloria_stormcurrent",
+      "npc_king_aurelion_veyrath_ix"
+    ],
+    "majorLocations": [
+      "loc_silvered_market",
+      "loc_drowned_ward",
+      "loc_nella_tunnels",
+      "loc_coral_gardens"
+    ],
+    "rewards": [
+      "Nella's belongings",
+      "Blue crystal shard clue",
+      "First major conspiracy clue",
+      "Emotional connection to Atlantis"
+    ],
+    "dmNotes": "No XP reward. Use milestone leveling. This session is about grief, suspicion, and the first public narrative turning against the Surface Realm."
+  },
+  {
+    "id": "quest_session_03",
+    "session": "session_03",
+    "name": "Shadows Beneath Atlantis",
+    "type": "Main Story",
+    "recommendedLevel": 5,
+    "milestoneLevelAfter": 6,
+    "summary": "The recruits leave Atlantis for their first assignment beyond the city walls and investigate the Trench Beacon. The mission becomes an ambush, proving someone inside Atlantis leaked the route.",
+    "objectives": [
+      "Report to morning formation",
+      "Receive first assignment beyond Atlantis",
+      "Leave through the Deep Gate",
+      "Travel to the Trench Beacon",
+      "Investigate the beacon",
+      "Survive the ambush",
+      "Protect or rescue wounded recruits",
+      "Discover the attackers knew the route",
+      "Return to Atlantis"
+    ],
+    "majorNPCs": [
+      "npc_thalorin_tideborn",
+      "npc_lyra_moonreef",
+      "npc_cassia_pearlfin",
+      "npc_brakk_deepjaw",
+      "npc_varko_tidewatch"
+    ],
+    "majorLocations": [
+      "loc_deep_gate",
+      "loc_trench_beacon",
+      "loc_deep_trench"
+    ],
+    "rewards": [
+      "Proof of information leak",
+      "Black coral / suspicious evidence if used",
+      "Lyra injury clue",
+      "Milestone: advance to level 6 after the session"
+    ],
+    "dmNotes": "This is the first mission beyond Atlantis and the first clear proof that not every enemy comes from outside the city."
+  },
+  {
+    "id": "quest_session_04",
+    "session": "session_04",
+    "name": "Family Day",
+    "type": "Main Story",
+    "recommendedLevel": 6,
+    "milestoneLevelAfter": null,
+    "summary": "Families arrive at the academy. The recruits interact with loved ones from the lives they inherited and uncover personal contradictions in the original recruit identities.",
+    "objectives": [
+      "Attend Family Day",
+      "Meet visiting families",
+      "Spend time with Squad 9",
+      "Visit Nella's memorial if desired",
+      "Investigate personal clues",
+      "Notice contradictions in the original recruits' lives",
+      "Receive the memory fragment: We were never supposed to survive the transfer"
+    ],
+    "majorLocations": [
+      "loc_academy",
+      "loc_barracks_tides",
+      "loc_silvered_market",
+      "loc_coral_gardens"
+    ],
+    "rewards": [
+      "Personal identity clues",
+      "Family relationship hooks",
+      "Possible tunnel map clue",
+      "Additional evidence about original recruits"
+    ],
+    "dmNotes": "This is a roleplay-heavy session. The point is to make the body swap personal."
+  },
+  {
+    "id": "quest_session_05",
+    "session": "session_05",
+    "name": "Final Examination",
+    "type": "Main Story",
+    "recommendedLevel": 6,
+    "milestoneLevelAfter": null,
+    "summary": "The recruits believe they are completing a graduation test, but the mission leads to a hidden Atlantean facility connected to Nella, the beacon ambush, Project Tidefall, and experimental Deepborn research.",
+    "objectives": [
+      "Begin the Navigation Examination",
+      "Investigate the Shattered Reef",
+      "Discover damage and survivor evidence",
+      "Follow the attackers' trail",
+      "Enter the hidden facility",
+      "Discover Project Tidefall references",
+      "Fight the Experimental Deepborn Hybrid",
+      "Hear Thalorin reveal this was recruitment, not graduation",
+      "Recover the damaged Project Tidefall document"
+    ],
+    "majorNPCs": [
+      "npc_thalorin_tideborn"
+    ],
+    "majorLocations": [
+      "loc_shattered_reef",
+      "loc_hidden_facility"
+    ],
+    "rewards": [
+      "Project Tidefall document",
+      "Evidence: Authorized by Order of the Crown",
+      "Major conspiracy reveal"
+    ],
+    "dmNotes": "No level-up yet unless pacing requires it. This is the final truth-before-graduation session."
+  },
+  {
+    "id": "quest_session_06",
+    "session": "session_06",
+    "name": "Graduation of the Tidewardens",
+    "type": "Main Story",
+    "recommendedLevel": 6,
+    "milestoneLevelAfter": 7,
+    "summary": "Graduation day begins with celebration, banners, families, and the Festival of the First Tide. Then Atlantis is attacked by the Abyssal Maw, forcing the recruits to defend the city before becoming full Tidewardens.",
+    "objectives": [
+      "Attend graduation morning",
+      "Experience Festival of the First Tide atmosphere",
+      "Hear the emergency bells",
+      "Respond to Commander Vaeloria's deployment order",
+      "Defend Atlantis from the Abyssal Maw",
+      "Protect civilians",
+      "Fight alongside Tidewardens and recruits",
+      "Receive Tidewarden recognition",
+      "Graduate into full Tidewarden service",
+      "Discover the Spiral Message: Meet me beneath the city",
+      "Advance to level 7"
+    ],
+    "majorNPCs": [
+      "npc_vaeloria_stormcurrent",
+      "npc_thalorin_tideborn",
+      "npc_king_aurelion_veyrath_ix",
+      "npc_cassia_pearlfin",
+      "npc_lyra_moonreef"
+    ],
+    "majorLocations": [
+      "loc_atlantis",
+      "loc_training_grounds",
+      "loc_deep_gate",
+      "loc_coral_gardens"
+    ],
+    "rewards": [
+      "Official Tidewarden status",
+      "Tidewarden recognition",
+      "Spiral Message",
+      "Milestone: advance to level 7"
+    ],
+    "dmNotes": "This is the Act I finale. The recruits do not simply graduate; they earn it by defending Atlantis during the Abyssal Maw attack."
+  }
+]
