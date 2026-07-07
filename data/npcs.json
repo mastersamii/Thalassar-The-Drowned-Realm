@@ -45,7 +45,7 @@
     "status": "Alive",
     "location": "Silvered Market",
     "firstAppearance": "Session 1",
-    "image": "assets/npcs/kella-tidehopper.webp",
+    "image": "assets/npcs/kella/Kella-Portrait.png",
     "summary": "A hardworking mother known throughout the market district.",
     "quote": "Mothers know when something is wrong.",
     "tags": [
