@@ -1,0 +1,9 @@
+[
+  {
+    "id": "silvered-market",
+    "name": "Silvered Market",
+    "unlocked": true,
+    "image": "assets/maps/silvered-market.webp",
+    "description": "Unlocked after Session 1 market patrol."
+  }
+]
