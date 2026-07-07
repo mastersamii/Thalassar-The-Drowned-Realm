@@ -1,0 +1,286 @@
+[
+  {
+    "id": "loc_trident_palace",
+    "areaNumber": 1,
+    "name": "Trident Palace",
+    "type": "Royal District",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The seat of King Aurelion Veyrath IX and the political heart of Atlantis. The palace contains royal chambers, diplomatic halls, council meeting rooms, treasury vaults, and restricted archives dating back centuries.",
+    "knownFeatures": [
+      "Royal chambers",
+      "Diplomatic halls",
+      "Council meeting rooms",
+      "Treasury vaults",
+      "Restricted archives"
+    ],
+    "relatedNPCs": ["npc_aurelion"],
+    "relatedGovernment": "gov_atlantean_crown",
+    "dmSecret": "Most citizens never enter beyond the outer halls."
+  },
+  {
+    "id": "loc_tidewarden_headquarters",
+    "areaNumber": 2,
+    "name": "Tidewarden Headquarters",
+    "type": "Military Headquarters",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The command center of the Tidewardens. Patrol assignments, investigations, military operations, and intelligence reports pass through this district.",
+    "knownFeatures": [
+      "Patrol assignments",
+      "Investigation records",
+      "Military operations",
+      "Intelligence reports",
+      "Senior officer command rooms"
+    ],
+    "relatedFactions": ["faction_tidewardens"],
+    "dmSecret": "Following graduation, this becomes one of the most important locations available to the characters."
+  },
+  {
+    "id": "loc_hall_trident_king",
+    "areaNumber": 3,
+    "name": "Hall of the Trident King",
+    "type": "Administrative District",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The administrative district of Atlantis where officials, magistrates, record keepers, diplomats, and noble representatives conduct daily business.",
+    "knownFeatures": [
+      "Legal offices",
+      "Tax offices",
+      "Diplomatic chambers",
+      "Policy halls",
+      "Petition chambers"
+    ],
+    "relatedGovernment": "gov_atlantean_crown"
+  },
+  {
+    "id": "loc_training_grounds",
+    "areaNumber": 4,
+    "name": "Training Grounds",
+    "type": "Academy Training Complex",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The primary training complex of the Tidewarden Academy where recruits master combat, tactics, athletics, survival skills, monster identification, law enforcement procedures, and military discipline.",
+    "relatedOrganizations": ["org_tidewarden_academy"],
+    "relatedFactions": ["faction_tidewardens"]
+  },
+  {
+    "id": "loc_proving_pits",
+    "areaNumber": 5,
+    "name": "Proving Pits",
+    "type": "Public Arena",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "A massive public arena used for competitions, military demonstrations, sparring tournaments, obstacle challenges, tactical exercises, and graduation trials.",
+    "knownFeatures": [
+      "Sparring tournaments",
+      "Obstacle challenges",
+      "Tactical exercises",
+      "Graduation trials",
+      "Public competitions"
+    ],
+    "relatedFactions": ["faction_tidewardens"]
+  },
+  {
+    "id": "loc_silvered_market",
+    "areaNumber": 6,
+    "name": "Silvered Market",
+    "type": "Market District",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The commercial center of Atlantis. Merchants sell weapons, armor, food, clothing, magical goods, salvaged relics, and imported supplies from across the Deep Realm.",
+    "knownFeatures": [
+      "Weapons",
+      "Armor",
+      "Food",
+      "Clothing",
+      "Magical goods",
+      "Salvaged relics",
+      "Imported supplies"
+    ],
+    "relatedShops": [
+      "shop_coral_forge_armory",
+      "shop_current_cog_tinkery",
+      "shop_mooncurrent_tailors",
+      "shop_pearlroot_apothecary"
+    ]
+  },
+  {
+    "id": "loc_grand_armory",
+    "areaNumber": 7,
+    "name": "Grand Armory",
+    "type": "Military Armory",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The largest military armory in Atlantis. Weapons, armor, shields, tridents, crossbows, magical equipment, and military supplies are produced and maintained here.",
+    "knownFeatures": [
+      "Weapons",
+      "Armor",
+      "Shields",
+      "Tridents",
+      "Crossbows",
+      "Magical equipment",
+      "Military supplies"
+    ],
+    "relatedFactions": ["faction_tidewardens"],
+    "dmSecret": "The armory is heavily guarded at all times."
+  },
+  {
+    "id": "loc_scholars_deep",
+    "areaNumber": 8,
+    "name": "Scholar's Deep",
+    "type": "Research District",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The center of learning and research within Atlantis. Libraries, laboratories, observatories, historical archives, and magical research facilities fill this district.",
+    "knownFeatures": [
+      "Libraries",
+      "Laboratories",
+      "Observatories",
+      "Historical archives",
+      "Magical research facilities"
+    ],
+    "relatedOrganizations": ["org_scholars_deep"],
+    "dmSecret": "Some records are accessible to the public. Others are not."
+  },
+  {
+    "id": "loc_temple_deep_current",
+    "areaNumber": 9,
+    "name": "Temple of the Deep Current",
+    "type": "Religious District",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The largest religious structure in Atlantis. Shrines to many gods can be found within the temple complex. Clerics, paladins, healers, and pilgrims frequently visit seeking guidance, healing, and divine wisdom.",
+    "knownFeatures": [
+      "Shrines to many gods",
+      "Healing services",
+      "Ceremonial halls",
+      "Pilgrim areas",
+      "Cleric chambers"
+    ],
+    "relatedReligions": ["religion_deep_current"]
+  },
+  {
+    "id": "loc_docks_tideshield",
+    "areaNumber": 10,
+    "name": "Docks of Tideshield",
+    "type": "Transportation Hub",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The primary transportation hub of Atlantis. The Deep Realm relies upon trained sea creatures, cargo beasts, and specialized underwater transports.",
+    "knownFeatures": [
+      "Trained sea creatures",
+      "Cargo beasts",
+      "Underwater transports",
+      "Merchant arrivals",
+      "Military patrol departures",
+      "Diplomatic travel"
+    ],
+    "dmSecret": "Most missions beyond the city begin here."
+  },
+  {
+    "id": "loc_barracks_tides",
+    "areaNumber": 11,
+    "name": "Barracks of Tides",
+    "type": "Recruit Housing District",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The recruit housing district containing dormitories, training quarters, mess halls, equipment storage facilities, and recreational areas used by Tidewarden recruits.",
+    "knownFeatures": [
+      "Dormitories",
+      "Training quarters",
+      "Mess halls",
+      "Equipment storage",
+      "Recreational areas"
+    ],
+    "relatedOrganizations": ["org_tidewarden_academy"],
+    "relatedSessions": ["session_01"],
+    "dmSecret": "The player characters awaken here at the beginning of the campaign."
+  },
+  {
+    "id": "loc_coral_gardens",
+    "areaNumber": 12,
+    "name": "Coral Gardens",
+    "type": "Memorial and Recreation District",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "A peaceful district dedicated to recreation, memorials, and public gathering spaces. Bioluminescent coral forests, statues of heroes, historical monuments, and tranquil pathways attract citizens seeking relaxation.",
+    "knownFeatures": [
+      "Bioluminescent coral forests",
+      "Hero statues",
+      "Historical monuments",
+      "Tranquil pathways",
+      "Memorials to those lost to the sea"
+    ]
+  },
+  {
+    "id": "loc_artisans_bellow",
+    "areaNumber": 13,
+    "name": "Artisan's Bellow",
+    "type": "Crafting District",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The crafting district of Atlantis. Blacksmiths, artificers, tailors, jewelers, alchemists, sculptors, and craftsmen maintain workshops throughout the district.",
+    "knownFeatures": [
+      "Blacksmiths",
+      "Artificers",
+      "Tailors",
+      "Jewelers",
+      "Alchemists",
+      "Sculptors",
+      "Craft workshops"
+    ],
+    "relatedShops": [
+      "shop_coral_forge_armory",
+      "shop_current_cog_tinkery",
+      "shop_mooncurrent_tailors",
+      "shop_pearlroot_apothecary"
+    ]
+  },
+  {
+    "id": "loc_deep_gate",
+    "areaNumber": 14,
+    "name": "The Deep Gate",
+    "type": "Main City Gate",
+    "realm": "Deep Realm",
+    "city": "loc_atlantis",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "description": "The main entrance to Atlantis. Massive defensive walls, military checkpoints, and customs stations protect the city from external threats.",
+    "knownFeatures": [
+      "Defensive walls",
+      "Military checkpoints",
+      "Customs stations",
+      "Tidewarden patrols",
+      "Visitor entry routes"
+    ],
+    "relatedFactions": ["faction_tidewardens"],
+    "dmSecret": "For most citizens, this district symbolizes both security and the boundary between civilization and the dangers of the wider ocean."
+  }
+]
