@@ -1,0 +1,133 @@
+[
+  {
+    "id": "shop_coral_forge_armory",
+    "name": "Coral Forge Armory",
+    "type": "Blacksmith",
+    "knowledgeLevel": "Public",
+    "status": "Open",
+    "location": "loc_artisans_bellow",
+    "district": "loc_artisans_bellow",
+    "owner": "npc_borin_stonefin",
+    "hours": "06:00-20:00",
+    "icon": "assets/images/shops/coral-forge.webp",
+    "banner": "assets/images/banners/coral-forge.webp",
+    "themeSong": "song_hammer_and_coral",
+    "description": "Atlantis's premier military blacksmith specializing in Tidewarden equipment.",
+    "services": [
+      "Weapons",
+      "Armor",
+      "Repairs",
+      "Custom Orders",
+      "Shield Engraving"
+    ],
+    "inventory": "inventory_coral_forge",
+    "relatedFaction": "faction_tidewardens",
+    "dmSecret": "Later in the campaign, unusual military orders begin appearing here."
+  },
+  {
+    "id": "shop_current_cog_tinkery",
+    "name": "Current & Cog Tinkery",
+    "type": "Artificer",
+    "knowledgeLevel": "Public",
+    "status": "Open",
+    "location": "loc_artisans_bellow",
+    "district": "loc_artisans_bellow",
+    "owner": "npc_nixie_currentspark",
+    "hours": "08:00-18:00",
+    "themeSong": "song_gears_beneath_the_waves",
+    "description": "An inventive workshop creating magical gadgets, diving equipment, and experimental devices.",
+    "services": [
+      "Infusions",
+      "Repairs",
+      "Custom Gadgets",
+      "Magical Components"
+    ],
+    "inventory": "inventory_current_cog"
+  },
+  {
+    "id": "shop_mooncurrent_tailors",
+    "name": "Mooncurrent Tailors",
+    "type": "Clothing",
+    "knowledgeLevel": "Public",
+    "status": "Open",
+    "location": "loc_artisans_bellow",
+    "district": "loc_artisans_bellow",
+    "owner": "npc_lysara_mooncurrent",
+    "hours": "09:00-19:00",
+    "themeSong": "song_silk_of_the_sea",
+    "description": "Luxury clothing, uniforms, noble attire, cloaks, and ceremonial garments.",
+    "services": [
+      "Tailoring",
+      "Embroidery",
+      "Formal Wear",
+      "Uniform Alterations"
+    ],
+    "inventory": "inventory_mooncurrent"
+  },
+  {
+    "id": "shop_pearlroot_apothecary",
+    "name": "Pearlroot Apothecary",
+    "type": "Apothecary",
+    "knowledgeLevel": "Public",
+    "status": "Open",
+    "location": "loc_artisans_bellow",
+    "district": "loc_artisans_bellow",
+    "owner": "npc_mira_pearlroot",
+    "hours": "Always Open",
+    "themeSong": "song_healing_currents",
+    "description": "Healing potions, herbs, medicines, antidotes, and magical remedies.",
+    "services": [
+      "Healing",
+      "Medicine",
+      "Potion Brewing",
+      "Poisons",
+      "Herbal Remedies"
+    ],
+    "inventory": "inventory_pearlroot"
+  },
+  {
+    "id": "shop_zariks_kelp_garden",
+    "name": "Zarik's Kelp Garden",
+    "type": "Specialty Food",
+    "knowledgeLevel": "Public",
+    "status": "Open",
+    "location": "loc_silvered_market",
+    "district": "loc_silvered_market",
+    "owner": "npc_zarik",
+    "hours": "09:00-22:00",
+    "themeSong": "song_green_tides",
+    "description": "The home of the famous Kelp Blends, Dr. Kelp, and Kelp Shrooms.",
+    "services": [
+      "Kelp Blends",
+      "Dr. Kelp",
+      "Diet Dr. Kelp",
+      "Kelp Shrooms"
+    ],
+    "inventory": "inventory_zariks"
+  },
+  {
+    "id": "shop_salty_eel",
+    "name": "The Salty Eel",
+    "type": "Tavern",
+    "knowledgeLevel": "Public",
+    "status": "Open",
+    "location": "loc_silvered_market",
+    "district": "loc_silvered_market",
+    "owner": "npc_brutus_blackfin",
+    "hours": "Always Open",
+    "themeSong": "song_raise_the_coral_cup",
+    "description": "The busiest tavern in Atlantis. Famous for food, drinks, rumors, and The Captain's Challenge.",
+    "services": [
+      "Food",
+      "Alcohol",
+      "Rumors",
+      "Rooms",
+      "Games"
+    ],
+    "inventory": "inventory_salty_eel",
+    "relatedSongs": [
+      "song_raise_the_coral_cup"
+    ],
+    "dmSecret": "Many important NPCs pass through the tavern between adventures."
+  }
+]
