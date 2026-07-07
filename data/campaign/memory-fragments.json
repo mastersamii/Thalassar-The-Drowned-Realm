@@ -1,0 +1,153 @@
+[
+  {
+    "id": "memory_001",
+    "title": "A Mother's Voice",
+    "act": 1,
+    "session": "session_01",
+    "status": "Unlocked",
+    "location": "loc_barracks_tides",
+    "trigger": "First Long Rest",
+    "owner": "Unknown Recruit",
+    "visibility": "Player",
+    "summary": "A warm voice whispers that everything will be alright before fading into darkness.",
+    "fragment": "You hear someone laugh... warm... familiar. A woman's voice tells you to come home before dinner gets cold. The memory slips away before you can see her face.",
+    "reveals": [
+      "The original recruit had a family."
+    ],
+    "relatedNPCs": [],
+    "relatedLocations": [],
+    "dmNotes": "This should feel comforting, not suspicious."
+  },
+  {
+    "id": "memory_002",
+    "title": "The Marketplace",
+    "act": 1,
+    "session": "session_01",
+    "status": "Unlocked",
+    "location": "loc_silvered_market",
+    "trigger": "Meeting Nella",
+    "owner": "Unknown Recruit",
+    "visibility": "Player",
+    "summary": "A faint memory of laughing with Nella in the market.",
+    "fragment": "Nella runs past carrying a loaf of kelp bread, laughing as someone chases her. You remember smiling... although you know that memory isn't yours.",
+    "reveals": [
+      "The original recruits knew Atlantis personally."
+    ],
+    "relatedNPCs": [
+      "npc_nella_tidehopper"
+    ]
+  },
+  {
+    "id": "memory_003",
+    "title": "They'll Blame the Surface",
+    "act": 1,
+    "session": "session_02",
+    "status": "Hidden",
+    "location": "loc_nella_tunnels",
+    "trigger": "Finding Nella",
+    "owner": "Unknown",
+    "visibility": "Player",
+    "summary": "The first conspiracy fragment.",
+    "fragment": "\"It doesn't matter what actually happened... they'll blame the Surface. They always do.\"",
+    "reveals": [
+      "Someone is manipulating public opinion."
+    ],
+    "relatedNPCs": []
+  },
+  {
+    "id": "memory_004",
+    "title": "Do Not Open the Vault",
+    "act": 1,
+    "session": "session_03",
+    "status": "Hidden",
+    "location": "loc_trench_beacon",
+    "trigger": "Investigating the Beacon",
+    "owner": "Unknown Officer",
+    "visibility": "DM",
+    "summary": "A warning connected to the beacon.",
+    "fragment": "\"Whatever happens... don't let them open the lower vault.\"",
+    "reveals": [
+      "The beacon is older than Atlantis admits."
+    ]
+  },
+  {
+    "id": "memory_005",
+    "title": "Someone Knew",
+    "act": 1,
+    "session": "session_03",
+    "status": "Hidden",
+    "location": "loc_trench_beacon",
+    "trigger": "After the Ambush",
+    "owner": "Unknown Recruit",
+    "visibility": "Player",
+    "summary": "The ambush wasn't random.",
+    "fragment": "\"How did they know we'd be here...? Only command knew this route...\"",
+    "reveals": [
+      "There is an information leak inside Atlantis."
+    ]
+  },
+  {
+    "id": "memory_006",
+    "title": "You Were Never Supposed to Survive",
+    "act": 1,
+    "session": "session_04",
+    "status": "Hidden",
+    "location": "loc_barracks_tides",
+    "trigger": "After Family Day",
+    "owner": "Unknown Scientist",
+    "visibility": "Player",
+    "summary": "The body swap wasn't an accident.",
+    "fragment": "\"The transfer failed... wait... no... they're alive... that's impossible...\"",
+    "reveals": [
+      "The soul transfer was intentional."
+    ]
+  },
+  {
+    "id": "memory_007",
+    "title": "Project Tidefall",
+    "act": 1,
+    "session": "session_05",
+    "status": "Hidden",
+    "location": "loc_hidden_facility",
+    "trigger": "Recovering the Documents",
+    "owner": "Unknown Researcher",
+    "visibility": "Player",
+    "summary": "The first mention of Project Tidefall.",
+    "fragment": "\"Project Tidefall proceeds ahead of schedule. Subject compatibility exceeds expectations.\"",
+    "reveals": [
+      "Project Tidefall exists."
+    ]
+  },
+  {
+    "id": "memory_008",
+    "title": "Authorized by Order of the Crown",
+    "act": 1,
+    "session": "session_05",
+    "status": "Hidden",
+    "location": "loc_hidden_facility",
+    "trigger": "Searching the Archive",
+    "owner": "Unknown Officer",
+    "visibility": "Player",
+    "summary": "A shocking discovery.",
+    "fragment": "\"Authorized by Order of the Crown.\"",
+    "reveals": [
+      "Someone within the government approved Project Tidefall."
+    ]
+  },
+  {
+    "id": "memory_009",
+    "title": "Meet Me Beneath the City",
+    "act": 1,
+    "session": "session_06",
+    "status": "Hidden",
+    "location": "loc_atlantis",
+    "trigger": "After Graduation",
+    "owner": "Unknown",
+    "visibility": "Player",
+    "summary": "The campaign hook into Act II.",
+    "fragment": "A small spiral is carved into the note.\n\n\"Meet me beneath the city before they erase you too.\"",
+    "reveals": [
+      "The Free Current Network has made contact."
+    ]
+  }
+]
