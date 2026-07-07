@@ -262,5 +262,48 @@
       "faction_deepborn_clans"
     ],
     "dmSecret": "The Deepborn are not a single race but many distinct cultures unfairly grouped together by Atlanteans."
-  }
+  },
+  {
+  "id": "species_axolotl_folk",
+  "name": "Axolotl Folk",
+  "classification": "Humanoid",
+  "knowledgeLevel": "Public",
+  "homeRealm": "Deep Realm",
+  "population": "Uncommon",
+  "averageHeight": "5'8\"–7'0\"",
+  "averageLifespan": "160 years",
+  "alignmentTendency": "Often Good",
+  "playable": true,
+  "icon": "assets/images/species/axolotl-folk.webp",
+  "banner": "assets/images/banners/axolotl-folk.webp",
+  "description": "Aquatic humanoids with external gills, soft amphibian features, and remarkable regenerative gifts. Axolotl Folk are often seen as calm, patient, and deeply resilient.",
+  "physicalTraits": [
+    "External feather-like gills",
+    "Smooth aquatic skin",
+    "Wide expressive eyes",
+    "Amphibian features",
+    "Natural swimming ability"
+  ],
+  "culture": [
+    "Healing traditions",
+    "Patience",
+    "Community protection",
+    "Military service",
+    "Quiet resilience"
+  ],
+  "languages": [
+    "Common",
+    "Aquan"
+  ],
+  "religions": [
+    "religion_deep_current"
+  ],
+  "majorSettlements": [
+    "loc_atlantis"
+  ],
+  "relatedNPCs": [
+    "npc_thalorin"
+  ],
+  "dmSecret": "Many Axolotl Folk serve as healers, guardians, and defensive commanders because their culture values endurance, protection, and recovery after disaster."
+}
 ]
