@@ -63,3 +63,47 @@ html[data-theme="light"] .site-header{background:rgba(224,248,255,.82)}
 .site-footer{text-align:center;padding:44px 18px;color:var(--muted)}#topBtn{position:fixed;right:18px;bottom:18px;display:none;z-index:70;background:var(--gold);color:#071421;font-weight:900;border:none;padding:12px 15px;border-radius:999px;box-shadow:0 12px 30px var(--shadow);cursor:pointer}
 @media(max-width:920px){.menu-btn{display:inline-block}.nav{flex-wrap:wrap}.nav-links{display:none;width:100%;padding-top:12px}.nav-links.open{display:grid;grid-template-columns:1fr 1fr}.grid,.grid.two{grid-template-columns:1fr}section{padding:22px;border-radius:22px}.hero{min-height:82vh}}
 @media(max-width:520px){main{width:min(100% - 22px,var(--max-width))}.nav{width:min(100% - 22px,var(--max-width))}.nav-links.open{grid-template-columns:1fr}h1{font-size:2.7rem}.btn{width:100%;text-align:center}}
+
+
+/* ---------- Session Archive ---------- */
+.session-list {
+  display: grid;
+  gap: 18px;
+}
+
+.session-card {
+  overflow: hidden;
+}
+
+.session-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.session-details {
+  display: none;
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.session-card.open .session-details {
+  display: block;
+}
+
+.session-details h4 {
+  margin-bottom: 8px;
+}
+
+.session-details ul {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 640px) {
+  .session-header {
+    display: block;
+  }
+}
