@@ -2,10 +2,271 @@
   {
     "id": "nella-tidehopper",
     "name": "Nella Tidehopper",
-    "status": "Met",
+    "unlocked": true,
+    "category": "Civilian",
+    "race": "Triton",
+    "role": "Child from the Silvered Market",
+    "status": "Deceased",
+    "location": "Silvered Market",
     "firstAppearance": "Session 1",
-    "summary": "A curious child in the Silvered Market who dreams of becoming a Tidewarden.",
     "image": "assets/npcs/nella-tidehopper.webp",
-    "songs": []
+    "summary": "A curious, fearless child who dreamed of becoming a Tidewarden.",
+    "quote": "Good luck becoming real Tidewardens!",
+    "tags": [
+      "Session 1",
+      "Session 2",
+      "Silvered Market"
+    ],
+    "knownInfo": [
+      "Nella was often seen around the Silvered Market.",
+      "She gave the party a simple good luck shell if they treated her kindly.",
+      "She dreamed of becoming a Tidewarden.",
+      "Her disappearance became the emotional center of Session 2."
+    ],
+    "appearances": [
+      "Session 1",
+      "Session 2"
+    ],
+    "songs": [],
+    "gallery": []
+  },
+  {
+    "id": "kella-tidehopper",
+    "name": "Kella Tidehopper",
+    "unlocked": true,
+    "category": "Civilian",
+    "race": "Sea Elf",
+    "role": "Nella's mother",
+    "status": "Alive",
+    "location": "Silvered Market",
+    "firstAppearance": "Session 1",
+    "image": "assets/npcs/kella-tidehopper.webp",
+    "summary": "A hardworking mother known throughout the market district.",
+    "quote": "Mothers know when something is wrong.",
+    "tags": [
+      "Session 1",
+      "Session 2",
+      "Silvered Market"
+    ],
+    "knownInfo": [
+      "Kella is Nella's mother.",
+      "Citizens in the Silvered Market clearly know both mother and daughter.",
+      "Her grief after Nella's death deeply affects the party."
+    ],
+    "appearances": [
+      "Session 1",
+      "Session 2"
+    ],
+    "songs": [],
+    "gallery": []
+  },
+  {
+    "id": "captain-thalorin-tideborn",
+    "name": "Captain Thalorin Tideborn",
+    "unlocked": true,
+    "category": "Academy",
+    "race": "Axolotl Folk",
+    "role": "Captain of the Tidewardens",
+    "status": "Alive",
+    "location": "Tidewarden Academy",
+    "firstAppearance": "Session 1",
+    "image": "assets/npcs/captain-thalorin-tideborn.webp",
+    "summary": "A respected Tidewarden captain who guides and observes the recruits.",
+    "quote": "A Tidewarden's duty is not to the throne. It is to the people sleeping safely because you stood watch.",
+    "tags": [
+      "Tidewardens",
+      "Academy",
+      "Mentor"
+    ],
+    "knownInfo": [
+      "Thalorin is one of the party's major academy authorities.",
+      "He is respected by recruits and Tidewardens.",
+      "He is protective, observant, and disciplined."
+    ],
+    "appearances": [
+      "Session 1",
+      "Session 2",
+      "Session 3"
+    ],
+    "songs": [],
+    "gallery": []
+  },
+  {
+    "id": "commander-vaeloria-stormcurrent",
+    "name": "Commander Vaeloria Stormcurrent",
+    "unlocked": true,
+    "category": "Academy",
+    "race": "Triton",
+    "role": "Commander of the Tidewarden Academy",
+    "status": "Alive",
+    "location": "Tidewarden Academy",
+    "firstAppearance": "Session 1",
+    "image": "assets/npcs/commander-vaeloria-stormcurrent.webp",
+    "summary": "A disciplined commander responsible for preparing recruits for service.",
+    "quote": "Atlantis is not protected by walls. It is protected by the people willing to stand upon them.",
+    "tags": [
+      "Tidewardens",
+      "Academy",
+      "Commander"
+    ],
+    "knownInfo": [
+      "Vaeloria commands the academy.",
+      "She is demanding, disciplined, and protective of Atlantis.",
+      "On graduation day, she mobilizes recruits when Atlantis is attacked."
+    ],
+    "appearances": [
+      "Session 1",
+      "Session 2",
+      "Session 6"
+    ],
+    "songs": [],
+    "gallery": []
+  },
+  {
+    "id": "sergeant-thalric-tideborn",
+    "name": "Sergeant Thalric Tideborn",
+    "unlocked": true,
+    "category": "Academy",
+    "race": "Triton",
+    "role": "Academy Sergeant",
+    "status": "Alive",
+    "location": "Barracks of Tides",
+    "firstAppearance": "Session 1",
+    "image": "assets/npcs/sergeant-thalric-tideborn.webp",
+    "summary": "A gruff academy sergeant who trains recruits hard because he wants them to survive.",
+    "quote": "If you're breathing, you're still learning. If you're not breathing, paperwork gets involved.",
+    "tags": [
+      "Tidewardens",
+      "Academy",
+      "Instructor"
+    ],
+    "knownInfo": [
+      "Thalric is one of the first authority figures the party encounters.",
+      "He is strict, sarcastic, and protective.",
+      "He runs academy discipline and training."
+    ],
+    "appearances": [
+      "Session 1"
+    ],
+    "songs": [],
+    "gallery": []
+  },
+  {
+    "id": "lieutenant-neros-wavecrest",
+    "name": "Lieutenant Neros Wavecrest",
+    "unlocked": true,
+    "category": "Academy",
+    "race": "Water Genasi",
+    "role": "Administrative Officer",
+    "status": "Alive",
+    "location": "Tidewarden Academy",
+    "firstAppearance": "Session 1",
+    "image": "assets/npcs/lieutenant-neros-wavecrest.webp",
+    "summary": "A friendly officer who handles records, reports, and recruit paperwork.",
+    "quote": "Every report tells a story. Most people simply forget to read it.",
+    "tags": [
+      "Tidewardens",
+      "Academy",
+      "Records"
+    ],
+    "knownInfo": [
+      "Neros works with academy and recruit records.",
+      "He is friendly, intelligent, and detail-oriented.",
+      "He remembers names, histories, and reports others overlook."
+    ],
+    "appearances": [
+      "Session 1"
+    ],
+    "songs": [],
+    "gallery": []
+  },
+  {
+    "id": "king-aurelion-veyrath-ix",
+    "name": "King Aurelion Veyrath IX",
+    "unlocked": true,
+    "category": "Royalty",
+    "race": "Triton",
+    "role": "King of Atlantis and the Deep Realm",
+    "status": "Alive",
+    "location": "Trident Palace",
+    "firstAppearance": "Session 2",
+    "image": "assets/npcs/king-aurelion-veyrath-ix.webp",
+    "summary": "The beloved Tide King of Atlantis, publicly viewed as wise, noble, and protective.",
+    "quote": "A kingdom is measured not by its walls, but by how safely its people sleep.",
+    "tags": [
+      "Royalty",
+      "Atlantis",
+      "Session 2"
+    ],
+    "knownInfo": [
+      "Aurelion has ruled Atlantis for nearly three centuries.",
+      "Most citizens admire and trust him.",
+      "He gives a public address after Nella's death."
+    ],
+    "appearances": [
+      "Session 2"
+    ],
+    "songs": [],
+    "gallery": []
+  },
+  {
+    "id": "cassia-pearlfin",
+    "name": "Cassia Pearlfin",
+    "unlocked": true,
+    "category": "Squad 9",
+    "race": "Sea Elf",
+    "role": "Squad 9 leader",
+    "status": "Alive",
+    "location": "Tidewarden Academy",
+    "firstAppearance": "Session 1",
+    "image": "assets/npcs/cassia-pearlfin.webp",
+    "summary": "A confident, disciplined recruit and leader of Squad 9.",
+    "quote": "Competence isn't arrogance if you're right.",
+    "tags": [
+      "Squad 9",
+      "Rival",
+      "Recruit"
+    ],
+    "knownInfo": [
+      "Cassia leads Squad 9.",
+      "She is confident, competitive, and respected by her squad.",
+      "She begins as a rival recruit."
+    ],
+    "appearances": [
+      "Session 1",
+      "Session 3"
+    ],
+    "songs": [],
+    "gallery": []
+  },
+  {
+    "id": "lyra-moonreef",
+    "name": "Lyra Moonreef",
+    "unlocked": true,
+    "category": "Squad 9",
+    "race": "Water Genasi",
+    "role": "Squad 9 recruit",
+    "status": "Alive",
+    "location": "Tidewarden Academy",
+    "firstAppearance": "Session 1",
+    "image": "assets/npcs/lyra-moonreef.webp",
+    "summary": "A quick-witted and kind recruit from Squad 9.",
+    "quote": "You're hiding something. I don't know what it is yet. But I will.",
+    "tags": [
+      "Squad 9",
+      "Recruit",
+      "Evaie"
+    ],
+    "knownInfo": [
+      "Lyra is a member of Squad 9.",
+      "She is observant, adventurous, and kind.",
+      "She becomes important during the Trench Beacon mission."
+    ],
+    "appearances": [
+      "Session 1",
+      "Session 3"
+    ],
+    "songs": [],
+    "gallery": []
   }
 ]
