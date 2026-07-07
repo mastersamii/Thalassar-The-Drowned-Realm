@@ -1,0 +1,146 @@
+[
+  {
+    "id": "religion_deep_current",
+    "name": "The Deep Current",
+    "type": "Atlantean Faith",
+    "realm": "Deep Realm",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "primaryTemple": "loc_temple_deep_current",
+    "symbol": "assets/images/religions/deep-current.webp",
+    "publicReputation": "The spiritual heart of Atlantis.",
+    "description": "A broad Atlantean religious tradition centered around the belief that all life is carried by sacred currents and eventually returns to the sea.",
+    "coreBeliefs": [
+      "All souls are carried by the tide",
+      "The sea remembers every name",
+      "Death is a return, not an ending",
+      "Community protects the current of life"
+    ],
+    "rituals": [
+      "Lantern jellyfish releases",
+      "Funeral hymns",
+      "Blessings before military missions",
+      "Memorial offerings in the Coral Gardens"
+    ],
+    "associatedSongs": [
+      "song_may_tides_carry_home",
+      "song_little_starfish_follow_tide"
+    ],
+    "dmSecret": "Some older hymns contain phrases that predate modern Atlantis and may reference the pre-Atlantean ruin beneath the Drowned Ward."
+  },
+  {
+    "id": "religion_bahamut",
+    "name": "Bahamut Worship",
+    "type": "Deity Worship",
+    "realm": "Both Realms",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "primaryTemple": "loc_temple_deep_current",
+    "symbol": "assets/images/religions/bahamut.webp",
+    "publicReputation": "Honorable and noble.",
+    "description": "Worship of Bahamut exists throughout both the Surface Realm and Atlantis, especially among paladins, protectors, and lawful guardians.",
+    "coreBeliefs": [
+      "Protect the innocent",
+      "Honor justice",
+      "Stand against tyranny",
+      "Use strength with mercy"
+    ],
+    "relatedNPCs": [],
+    "dmSecret": "Bahamut clergy may eventually question whether Atlantis's pursuit of order has drifted away from justice."
+  },
+  {
+    "id": "religion_valkur",
+    "name": "Valkur Worship",
+    "type": "Deity Worship",
+    "realm": "Surface Realm",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "primaryTemple": null,
+    "symbol": "assets/images/religions/valkur.webp",
+    "publicReputation": "Beloved by sailors.",
+    "description": "Valkur is commonly honored by sailors, navigators, fishermen, and storm survivors across the Surface Realm.",
+    "coreBeliefs": [
+      "Respect the storm",
+      "Trust your crew",
+      "Courage carries ships home",
+      "Freedom belongs to those who brave the waves"
+    ],
+    "rituals": [
+      "Blessing ships before departure",
+      "Storm prayers",
+      "Memorial songs for lost crews"
+    ],
+    "dmSecret": "Some surface prayers to Valkur contain warnings about lights beneath the sea."
+  },
+  {
+    "id": "religion_umberlee",
+    "name": "Umberlee Worship",
+    "type": "Deity Worship",
+    "realm": "Surface Realm",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "primaryTemple": null,
+    "symbol": "assets/images/religions/umberlee.webp",
+    "publicReputation": "Feared more than loved.",
+    "description": "Umberlee is feared by many surface sailors who make offerings to avoid storms, wrecks, and drowning.",
+    "coreBeliefs": [
+      "The sea takes what it is owed",
+      "Storms must be appeased",
+      "Pride invites drowning",
+      "Offerings preserve survival"
+    ],
+    "rituals": [
+      "Coins cast into storms",
+      "Bloodless offerings before voyages",
+      "Funeral rites for those lost at sea"
+    ],
+    "dmSecret": "Certain extremist sects may interpret disasters as divine payment."
+  },
+  {
+    "id": "religion_sleeper_below",
+    "name": "The Sleeper Below",
+    "type": "Forbidden Worship",
+    "realm": "Deep Trenches",
+    "status": "Forbidden",
+    "knowledgeLevel": "Secret",
+    "primaryTemple": null,
+    "symbol": "assets/images/religions/sleeper-below.webp",
+    "publicReputation": "Myth or madness.",
+    "description": "A forbidden belief centered around an ancient abyssal entity said to dream beneath the deepest trench.",
+    "coreBeliefs": [
+      "The deep is alive",
+      "Dreams are messages from below",
+      "Civilization is temporary",
+      "The Sleeper will eventually wake"
+    ],
+    "relatedFactions": [
+      "faction_cult_sleeper_below"
+    ],
+    "dmSecret": "The Sleeper Below may be tied to ancient pre-Atlantean ruins and the deepest layers of the campaign's final mystery."
+  },
+  {
+    "id": "religion_ocean_spirits",
+    "name": "Ocean Spirit Traditions",
+    "type": "Folk Belief",
+    "realm": "Both Realms",
+    "status": "Active",
+    "knowledgeLevel": "Public",
+    "primaryTemple": null,
+    "symbol": "assets/images/religions/ocean-spirits.webp",
+    "publicReputation": "Old sailor superstition.",
+    "description": "A loose collection of folk beliefs honoring local currents, reefs, whale spirits, storm spirits, and ancestral guardians.",
+    "coreBeliefs": [
+      "Every current has a memory",
+      "Whales carry old wisdom",
+      "Reefs protect those who respect them",
+      "The dead may guide the living through dreams"
+    ],
+    "rituals": [
+      "Shell offerings",
+      "Whale-song prayers",
+      "Lanterns released into currents",
+      "Naming ceremonies near reefs"
+    ],
+    "dmSecret": "Some spirits may actually be magical echoes left behind by ancient civilization."
+  }
+]
