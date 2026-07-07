@@ -1,0 +1,277 @@
+[
+  {
+    "id": "drink_kelp_light",
+    "name": "Kelp Light",
+    "category": "Beer",
+    "rarity": "Common",
+    "price": "3sp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Light",
+    "glass": "Atlantean Coral Stein",
+    "description": "A crisp golden kelp lager favored by Tidewardens after long patrols.",
+    "positiveEffect": {
+      "effect": "Advantage on next saving throw against Fear",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Investigation check",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_ultra_kelp",
+    "name": "Ultra Kelp",
+    "category": "Beer",
+    "rarity": "Common",
+    "price": "5sp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Light",
+    "glass": "Tall Coral Pint",
+    "description": "A lighter version of Kelp Light brewed for long evenings.",
+    "positiveEffect": {
+      "effect": "Gain 1 Temporary Hit Point",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Stealth check",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_blue_current_lager",
+    "name": "Blue Current Lager",
+    "category": "Beer",
+    "rarity": "Common",
+    "price": "5sp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Medium",
+    "glass": "Blue Coral Mug",
+    "description": "A refreshing blue-tinted lager brewed with glowing reef algae.",
+    "positiveEffect": {
+      "effect": "Advantage on next Dexterity check",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Wisdom (Perception) check",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_reef_runner_pilsner",
+    "name": "Reef Runner Pilsner",
+    "category": "Beer",
+    "rarity": "Common",
+    "price": "5sp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Medium",
+    "glass": "Shell Pint",
+    "description": "A bright pilsner brewed for sailors and messengers.",
+    "positiveEffect": {
+      "effect": "Ignore difficult terrain for 30 feet",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Survival check",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_whale_song_wheat",
+    "name": "Whale Song Wheat",
+    "category": "Beer",
+    "rarity": "Common",
+    "price": "5sp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Medium",
+    "glass": "Whalebone Stein",
+    "description": "A smooth wheat beer inspired by migrating whale songs.",
+    "positiveEffect": {
+      "effect": "Advantage on next Animal Handling check",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Insight check",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_stormbrew_ale",
+    "name": "Stormbrew Ale",
+    "category": "Ale",
+    "rarity": "Uncommon",
+    "price": "6sp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Strong",
+    "glass": "Stone Coral Tankard",
+    "positiveEffect": {
+      "effect": "Advantage on next Constitution saving throw",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Dexterity saving throw",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_coral_crest_amber",
+    "name": "Coral Crest Amber",
+    "category": "Ale",
+    "rarity": "Uncommon",
+    "price": "6sp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Strong",
+    "glass": "Amber Coral Mug",
+    "positiveEffect": {
+      "effect": "Advantage on next Persuasion check",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Intimidation check",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_driftwood_stout",
+    "name": "Driftwood Stout",
+    "category": "Stout",
+    "rarity": "Uncommon",
+    "price": "7sp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Strong",
+    "glass": "Heavy Reef Stein",
+    "positiveEffect": {
+      "effect": "Advantage on next Strength check",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Speed reduced by 5 feet",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_depth_charge_porter",
+    "name": "Depth Charge Porter",
+    "category": "Porter",
+    "rarity": "Rare",
+    "price": "8sp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Strong",
+    "glass": "Obsidian Coral Mug",
+    "positiveEffect": {
+      "effect": "Gain 1d4 Temporary Hit Points",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on Initiative rolls",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_black_current_black_ale",
+    "name": "Black Current Black Ale",
+    "category": "Ale",
+    "rarity": "Rare",
+    "price": "1gp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Very Strong",
+    "glass": "Black Coral Tankard",
+    "positiveEffect": {
+      "effect": "Advantage on next Intimidation check",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Persuasion check",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_deep_rum",
+    "name": "Deep Rum",
+    "category": "Liquor",
+    "rarity": "Rare",
+    "price": "1gp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Very Strong",
+    "glass": "Crystal Coral Shot Glass",
+    "positiveEffect": {
+      "effect": "Advantage on next Charisma check",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Wisdom saving throw",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_storm_rum",
+    "name": "Storm Rum",
+    "category": "Liquor",
+    "rarity": "Rare",
+    "price": "2gp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Very Strong",
+    "glass": "Stormglass Shot",
+    "positiveEffect": {
+      "effect": "Advantage on next save against Fear",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Intelligence check",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_trench_whiskey",
+    "name": "Trench Whiskey",
+    "category": "Liquor",
+    "rarity": "Very Rare",
+    "price": "2gp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Extremely Strong",
+    "glass": "Etched Coral Tumbler",
+    "positiveEffect": {
+      "effect": "Resistance to Cold damage",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on Dexterity checks",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_reef_gin",
+    "name": "Reef Gin",
+    "category": "Liquor",
+    "rarity": "Rare",
+    "price": "2gp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Strong",
+    "glass": "Sea Crystal Glass",
+    "positiveEffect": {
+      "effect": "Advantage on next Nature check",
+      "duration": "1 hour"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on next Investigation check",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "drink_leviathan_reserve",
+    "name": "Leviathan Reserve",
+    "category": "Premium Liquor",
+    "rarity": "Legendary",
+    "price": "5gp",
+    "servedAt": ["shop_salty_eel_tavern"],
+    "alcoholStrength": "Legendary",
+    "glass": "Engraved Royal Coral Decanter",
+    "positiveEffect": {
+      "effect": "Gain Inspiration",
+      "duration": "Instant"
+    },
+    "negativeEffect": {
+      "effect": "Disadvantage on Initiative rolls",
+      "duration": "1 hour"
+    }
+  }
+]
