@@ -1,0 +1,255 @@
+[
+  {
+    "id": "food_kelp_bread",
+    "name": "Kelp Bread",
+    "category": "Food",
+    "rarity": "Common",
+    "price": "2cp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "Fresh baked kelp loaf served warm with sea salt butter.",
+    "effects": [
+      {
+        "type": "Temporary HP",
+        "value": 1,
+        "duration": "1 hour"
+      },
+      {
+        "type": "Advantage",
+        "target": "Constitution saves against environmental effects",
+        "duration": "1 hour"
+      }
+    ]
+  },
+  {
+    "id": "food_salted_reef_nuts",
+    "name": "Salted Reef Nuts",
+    "category": "Food",
+    "rarity": "Common",
+    "price": "3sp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "Roasted reef nuts tossed in sea salt and spices.",
+    "effects": [
+      {
+        "type": "Advantage",
+        "target": "Next Acrobatics check",
+        "duration": "1 hour"
+      },
+      {
+        "type": "Movement",
+        "value": "+5 feet",
+        "duration": "1 hour"
+      }
+    ]
+  },
+  {
+    "id": "food_reef_fish_stew",
+    "name": "Reef Fish Stew",
+    "category": "Food",
+    "rarity": "Common",
+    "price": "5sp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "A hearty stew of local fish, vegetables, and herbs simmered for hours.",
+    "effects": [
+      {
+        "type": "Temporary HP",
+        "value": "1d4",
+        "duration": "2 hours"
+      },
+      {
+        "type": "Advantage",
+        "target": "Next Survival check",
+        "duration": "2 hours"
+      }
+    ]
+  },
+  {
+    "id": "food_squid_skewers",
+    "name": "Squid Skewers",
+    "category": "Food",
+    "rarity": "Common",
+    "price": "5sp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "Charred squid brushed with garlic butter and sea spices.",
+    "effects": [
+      {
+        "type": "Advantage",
+        "target": "Next Athletics check",
+        "duration": "1 hour"
+      },
+      {
+        "type": "Advantage",
+        "target": "Next Strength saving throw",
+        "duration": "1 hour"
+      }
+    ]
+  },
+  {
+    "id": "food_fried_sea_crab",
+    "name": "Fried Sea Crab",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "price": "7sp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "Golden fried crab served with kelp slaw.",
+    "effects": [
+      {
+        "type": "Temporary HP",
+        "value": 2,
+        "duration": "2 hours"
+      },
+      {
+        "type": "Advantage",
+        "target": "Next Grapple attempt",
+        "duration": "2 hours"
+      }
+    ]
+  },
+  {
+    "id": "food_coral_shrimp_basket",
+    "name": "Coral Shrimp Basket",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "price": "8sp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "Lightly battered coral shrimp served with reef fries.",
+    "effects": [
+      {
+        "type": "Advantage",
+        "target": "Initiative",
+        "duration": "1 hour"
+      },
+      {
+        "type": "Advantage",
+        "target": "Next Acrobatics check",
+        "duration": "1 hour"
+      }
+    ]
+  },
+  {
+    "id": "food_shark_steak",
+    "name": "Shark Steak",
+    "category": "Food",
+    "rarity": "Rare",
+    "price": "1gp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "Grilled shark steak seasoned with cracked sea pepper.",
+    "effects": [
+      {
+        "type": "Temporary HP",
+        "value": "1d6",
+        "duration": "2 hours"
+      },
+      {
+        "type": "Advantage",
+        "target": "Next Intimidation check",
+        "duration": "2 hours"
+      }
+    ]
+  },
+  {
+    "id": "food_kraken_rings",
+    "name": "Kraken Rings",
+    "category": "Food",
+    "rarity": "Rare",
+    "price": "2gp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "Tender kraken tentacle rings fried until crisp.",
+    "effects": [
+      {
+        "type": "Advantage",
+        "target": "Next Athletics check",
+        "duration": "2 hours"
+      },
+      {
+        "type": "Advantage",
+        "target": "Next Strength check",
+        "duration": "2 hours"
+      }
+    ]
+  },
+  {
+    "id": "food_leviathan_chowder",
+    "name": "Leviathan Chowder",
+    "category": "Food",
+    "rarity": "Very Rare",
+    "price": "2gp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "A rich creamy chowder made from giant deep-sea fish and root vegetables.",
+    "effects": [
+      {
+        "type": "Temporary HP",
+        "value": "2d4",
+        "duration": "4 hours"
+      },
+      {
+        "type": "Advantage",
+        "target": "Constitution saves against Exhaustion",
+        "duration": "4 hours"
+      }
+    ]
+  },
+  {
+    "id": "food_giant_crab_platter",
+    "name": "Giant Crab Platter",
+    "category": "Food",
+    "rarity": "Very Rare",
+    "price": "3gp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "A massive serving of giant crab legs with drawn butter.",
+    "effects": [
+      {
+        "type": "Temporary HP",
+        "value": "1d8",
+        "duration": "4 hours"
+      },
+      {
+        "type": "Advantage",
+        "target": "Strength checks",
+        "duration": "4 hours"
+      }
+    ]
+  },
+  {
+    "id": "food_deep_trench_lobster",
+    "name": "Deep Trench Lobster",
+    "category": "Food",
+    "rarity": "Legendary",
+    "price": "5gp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "Rare trench lobster served with garlic coral butter.",
+    "effects": [
+      {
+        "type": "Advantage",
+        "target": "Perception",
+        "duration": "8 hours"
+      },
+      {
+        "type": "Advantage",
+        "target": "Intelligence checks to recall information",
+        "duration": "8 hours"
+      }
+    ]
+  },
+  {
+    "id": "food_captains_challenge",
+    "name": "The Captain's Challenge",
+    "category": "Meal",
+    "rarity": "Legendary",
+    "price": "5gp",
+    "shop": "shop_salty_eel_tavern",
+    "description": "Includes Shark Steak, Squid Skewers, Fried Sea Crab, Kelp Bread, and Leviathan Chowder.",
+    "effects": [
+      {
+        "type": "Temporary HP",
+        "value": 10,
+        "duration": "8 hours"
+      },
+      {
+        "type": "Advantage",
+        "target": "Strength and Constitution checks",
+        "duration": "8 hours"
+      }
+    ],
+    "special": "Finish in under ten minutes and your name is carved into a beam above the bar."
+  }
+]
