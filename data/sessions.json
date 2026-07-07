@@ -4,6 +4,84 @@
     "number": 1,
     "title": "Awakening Beneath the Waves",
     "unlocked": true,
-    "summary": "The party awakens in Tidewarden recruit bodies, trains at the academy, patrols the Silvered Market, and meets Nella and Kella."
+    "level": 5,
+    "summary": "The party awakened in Tidewarden recruit bodies inside the Barracks of Tides, began academy life, met Squad 9, completed training exercises, and received their first assignment: patrol the Silvered Market.",
+    "majorScenes": [
+      "Awakening in the Barracks of Tides",
+      "Morning formation",
+      "Meeting academy staff",
+      "Meeting Squad 9",
+      "Training exercises",
+      "First assignment briefing",
+      "Silvered Market patrol",
+      "Meeting Nella and Kella Tidehopper"
+    ],
+    "npcsMet": [
+      "Commander Vaeloria Stormcurrent",
+      "Captain Thalorin Tideborn",
+      "Sergeant Thalric Tideborn",
+      "Lieutenant Neros Wavecrest",
+      "Nella Tidehopper",
+      "Kella Tidehopper",
+      "Squad 9"
+    ],
+    "locationsVisited": [
+      "Barracks of Tides",
+      "Training Grounds",
+      "Silvered Market"
+    ],
+    "unresolvedQuestions": [
+      "Why did the party awaken in different bodies?",
+      "Who were the original recruits?",
+      "Why do some memories feel unfamiliar?"
+    ]
+  },
+  {
+    "id": "session_02",
+    "number": 2,
+    "title": "The Missing Child",
+    "unlocked": true,
+    "level": 5,
+    "summary": "Nella Tidehopper disappeared, leading the recruits through the Silvered Market and into the Drowned Ward tunnels. The investigation ended in tragedy and left the party with the first serious signs that something in Atlantis is being hidden.",
+    "majorScenes": [
+      "Missing child announcement",
+      "Investigation through the Silvered Market",
+      "Witness questioning",
+      "Entering the Drowned Ward tunnels",
+      "Finding Nella",
+      "Kella's grief",
+      "King Aurelion's public address",
+      "Nella's funeral"
+    ],
+    "npcsMet": [
+      "Nella Tidehopper",
+      "Kella Tidehopper",
+      "King Aurelion Veyrath IX",
+      "Captain Thalorin Tideborn",
+      "Commander Vaeloria Stormcurrent"
+    ],
+    "locationsVisited": [
+      "Silvered Market",
+      "Drowned Ward",
+      "Maintenance Tunnels",
+      "Coral Gardens"
+    ],
+    "unresolvedQuestions": [
+      "What exactly happened in the tunnels?",
+      "Why does the official explanation feel incomplete?",
+      "Why are some parts of Atlantis restricted from public knowledge?"
+    ]
+  },
+  {
+    "id": "session_03",
+    "number": 3,
+    "title": "Shadows Beneath Atlantis",
+    "unlocked": false,
+    "level": 5,
+    "summary": "Locked until the party completes Session 3.",
+    "majorScenes": [],
+    "npcsMet": [],
+    "locationsVisited": [],
+    "unresolvedQuestions": []
   }
 ]
