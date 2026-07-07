@@ -1,0 +1,202 @@
+[
+  {
+    "id": "kelp_relaxation_blend",
+    "name": "Relaxation Blend",
+    "category": "Kelp Blend",
+    "rarity": "Common",
+    "knowledgeLevel": "Public",
+    "price": "5gp",
+    "weight": "1 oz",
+    "vendor": "shop_zariks_kelp_garden",
+    "consumable": true,
+    "description": "A finely ground blend of calming kelp harvested from tranquil reef gardens.",
+    "effect": {
+      "name": "Relaxation",
+      "description": "Gain advantage on your next saving throw against being Frightened or Charmed.",
+      "duration": "1 hour"
+    },
+    "flavor": "Light mint with a clean ocean finish.",
+    "image": "assets/images/items/kelp/relaxation-blend.webp"
+  },
+  {
+    "id": "kelp_sleep_blend",
+    "name": "Sleep Blend",
+    "category": "Kelp Blend",
+    "rarity": "Common",
+    "knowledgeLevel": "Public",
+    "price": "5gp",
+    "weight": "1 oz",
+    "vendor": "shop_zariks_kelp_garden",
+    "consumable": true,
+    "description": "A soothing blend prepared for peaceful evenings.",
+    "effect": {
+      "name": "Restful Sleep",
+      "description": "The next Long Rest removes one additional level of Exhaustion and grants pleasant dreams.",
+      "duration": "Next Long Rest"
+    },
+    "flavor": "Chamomile, sea mint, and sweet kelp."
+  },
+  {
+    "id": "kelp_festival_blend",
+    "name": "Festival Blend",
+    "category": "Kelp Blend",
+    "rarity": "Uncommon",
+    "knowledgeLevel": "Public",
+    "price": "10gp",
+    "weight": "1 oz",
+    "vendor": "shop_zariks_kelp_garden",
+    "consumable": true,
+    "description": "A colorful recreational blend commonly enjoyed during Atlantean festivals.",
+    "effect": {
+      "name": "Festival Spirit",
+      "description": "Gain advantage on Performance and Charisma (Persuasion) checks.",
+      "duration": "1 hour"
+    },
+    "flavor": "Sweet reef berries with citrus kelp."
+  },
+  {
+    "id": "kelp_medicinal_blend",
+    "name": "Medicinal Blend",
+    "category": "Kelp Blend",
+    "rarity": "Uncommon",
+    "knowledgeLevel": "Public",
+    "price": "15gp",
+    "weight": "1 oz",
+    "vendor": "shop_zariks_kelp_garden",
+    "consumable": true,
+    "description": "Prepared by experienced herbalists using restorative kelp and reef herbs.",
+    "effect": {
+      "name": "Restoration",
+      "description": "Restore 2d4 + 2 hit points.",
+      "duration": "Instant"
+    },
+    "flavor": "Earthy with a slightly salty finish."
+  },
+  {
+    "id": "kelp_premium_reef_blend",
+    "name": "Premium Reef Blend",
+    "category": "Kelp Blend",
+    "rarity": "Rare",
+    "knowledgeLevel": "Public",
+    "price": "35gp",
+    "weight": "1 oz",
+    "vendor": "shop_zariks_kelp_garden",
+    "consumable": true,
+    "description": "Zarik's signature blend combining the finest kelps harvested across the Deep Realm.",
+    "effect": {
+      "name": "Premium Blend",
+      "description": "Choose one effect from any standard Kelp Blend when consumed.",
+      "duration": "Varies"
+    },
+    "flavor": "Complex floral aroma with rich ocean herbs."
+  },
+  {
+    "id": "drink_dr_kelp",
+    "name": "Dr. Kelp (6-Pack)",
+    "category": "Soft Drink",
+    "rarity": "Common",
+    "knowledgeLevel": "Public",
+    "price": "6gp",
+    "vendor": "shop_zariks_kelp_garden",
+    "consumable": true,
+    "description": "Atlantis' most famous carbonated kelp beverage.",
+    "effect": {
+      "name": "Refreshing",
+      "description": "Gain 1 Temporary Hit Point.",
+      "duration": "1 hour"
+    },
+    "flavor": "Sweet vanilla kelp with ocean spice."
+  },
+  {
+    "id": "drink_diet_dr_kelp",
+    "name": "Diet Dr. Kelp (6-Pack)",
+    "category": "Soft Drink",
+    "rarity": "Common",
+    "knowledgeLevel": "Public",
+    "price": "6gp",
+    "vendor": "shop_zariks_kelp_garden",
+    "consumable": true,
+    "description": "The sugar-free version of Atlantis' favorite drink.",
+    "effect": {
+      "name": "Refreshing",
+      "description": "Ignore one level of fatigue from forced marching for the next hour.",
+      "duration": "1 hour"
+    },
+    "flavor": "Lighter vanilla with crisp reef citrus."
+  },
+  {
+    "id": "kelp_shrooms_common",
+    "name": "Common Kelp Shrooms",
+    "category": "Kelp Shroom",
+    "rarity": "Common",
+    "knowledgeLevel": "Public",
+    "price": "5gp",
+    "quantity": 10,
+    "vendor": "shop_zariks_kelp_garden",
+    "effect": {
+      "name": "Calm Focus",
+      "description": "Gain advantage on your next Wisdom saving throw.",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "kelp_shrooms_festival",
+    "name": "Festival Kelp Shrooms",
+    "category": "Kelp Shroom",
+    "rarity": "Uncommon",
+    "knowledgeLevel": "Public",
+    "price": "15gp",
+    "quantity": 8,
+    "vendor": "shop_zariks_kelp_garden",
+    "effect": {
+      "name": "Festival Joy",
+      "description": "Gain advantage on Performance checks.",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "kelp_shrooms_tidewalker",
+    "name": "Tidewalker Kelp Shrooms",
+    "category": "Kelp Shroom",
+    "rarity": "Rare",
+    "knowledgeLevel": "Public",
+    "price": "25gp",
+    "quantity": 6,
+    "vendor": "shop_zariks_kelp_garden",
+    "effect": {
+      "name": "Tidewalker",
+      "description": "Increase your swimming speed by 10 feet.",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "kelp_shrooms_leviathan",
+    "name": "Leviathan Kelp Shrooms",
+    "category": "Kelp Shroom",
+    "rarity": "Very Rare",
+    "knowledgeLevel": "Public",
+    "price": "40gp",
+    "quantity": 5,
+    "vendor": "shop_zariks_kelp_garden",
+    "effect": {
+      "name": "Leviathan's Strength",
+      "description": "Gain advantage on Strength checks and Strength saving throws.",
+      "duration": "1 hour"
+    }
+  },
+  {
+    "id": "kelp_shrooms_dream_reef",
+    "name": "Dream Reef Kelp Shrooms",
+    "category": "Kelp Shroom",
+    "rarity": "Legendary",
+    "knowledgeLevel": "Public",
+    "price": "50gp",
+    "quantity": 5,
+    "vendor": "shop_zariks_kelp_garden",
+    "effect": {
+      "name": "Dreamwalker",
+      "description": "Gain advantage on Insight checks and Wisdom (Perception) checks.",
+      "duration": "1 hour"
+    }
+  }
+]
