@@ -27,7 +27,12 @@
       "Session 1",
       "Session 2"
     ],
-    "songs": ["assets/songs/nella/Nella's-Atlantis.mp3"],
+    "songs": [
+  {
+    "title": "Nella's Atlantis",
+    "file": "assets/songs/nella/Nella's-Atlantis.mp3"
+  }
+],
     "gallery": ["assets/npcs/Nella.png"]
   },
   {
