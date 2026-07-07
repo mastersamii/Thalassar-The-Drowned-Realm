@@ -107,3 +107,129 @@ html[data-theme="light"] .site-header{background:rgba(224,248,255,.82)}
     display: block;
   }
 }
+
+/* ---------- NPC Codex ---------- */
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-btn {
+  color: var(--text);
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.06);
+  padding: 9px 13px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+.npc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.npc-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.npc-image-wrap {
+  aspect-ratio: 4 / 5;
+  background: radial-gradient(circle, rgba(54,214,208,.16), rgba(0,0,0,.25));
+  overflow: hidden;
+}
+
+.npc-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.npc-card-body {
+  padding: 22px;
+}
+
+.npc-link {
+  margin-top: 14px;
+}
+
+.tag-row {
+  margin: 12px 0;
+}
+
+.npc-profile-hero {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 28px;
+  align-items: center;
+}
+
+.npc-profile-image-wrap {
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  overflow: hidden;
+  background: rgba(255,255,255,.06);
+}
+
+.npc-profile-image {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.info-list {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.music-list {
+  display: grid;
+  gap: 12px;
+}
+
+.music-card audio {
+  width: 100%;
+}
+
+.profile-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.profile-gallery-image {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+@media (max-width: 920px) {
+  .npc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .npc-profile-hero {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .npc-grid,
+  .profile-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
