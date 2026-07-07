@@ -1,0 +1,158 @@
+[
+  {
+    "id": "market_main_entrance_north_gate",
+    "areaNumber": 1,
+    "name": "Main Entrance North Gate",
+    "parentLocation": "loc_silvered_market",
+    "type": "Market Entrance",
+    "knowledgeLevel": "Public",
+    "description": "Massive coral gates mark the northern entrance to the Silvered Market. Tidewarden banners drift between elegant marble pillars while citizens, merchants, cargo beasts, and city guards move through the area.",
+    "purpose": "Primary patrol route into the market district."
+  },
+  {
+    "id": "market_central_plaza",
+    "areaNumber": 2,
+    "name": "Central Plaza",
+    "parentLocation": "loc_silvered_market",
+    "type": "Public Plaza",
+    "knowledgeLevel": "Public",
+    "description": "The heart of the Silvered Market, a vast circular plaza paved with polished blue stone where citizens gather beneath drifting lanterns and merchants advertise their goods.",
+    "purpose": "Most market encounters eventually lead back here. Nella is often found nearby.",
+    "relatedNPCs": ["npc_nella"]
+  },
+  {
+    "id": "market_statue_deep_accord",
+    "areaNumber": 3,
+    "name": "Statue of the Deep Accord",
+    "parentLocation": "loc_silvered_market",
+    "type": "Monument",
+    "knowledgeLevel": "Public",
+    "description": "A towering statue depicting the legendary founders of Atlantis. Coral and pearl adorn its base while fish weave between carved tridents and ancient inscriptions.",
+    "purpose": "Citizens frequently leave offerings here. Brother Neros occasionally gives public sermons nearby."
+  },
+  {
+    "id": "market_general_goods_stalls",
+    "areaNumber": 4,
+    "name": "General Goods Stalls",
+    "parentLocation": "loc_silvered_market",
+    "type": "Market Stalls",
+    "knowledgeLevel": "Public",
+    "description": "Rows of colorful stalls selling clothing, tools, preserved food, maps, books, and curiosities.",
+    "relatedNPCs": ["npc_sylla_inkstream"]
+  },
+  {
+    "id": "market_exotic_goods_bazaar",
+    "areaNumber": 5,
+    "name": "Exotic Goods Bazaar",
+    "parentLocation": "loc_silvered_market",
+    "type": "Bazaar",
+    "knowledgeLevel": "Public",
+    "description": "A louder bargaining district filled with rare goods from distant regions, including coral carvings, deep-sea relics, imported jewelry, enchanted trinkets, and mysterious curiosities.",
+    "relatedNPCs": ["npc_talia_pearlfin"]
+  },
+  {
+    "id": "market_food_spice_market",
+    "areaNumber": 6,
+    "name": "Food and Spice Market",
+    "parentLocation": "loc_silvered_market",
+    "type": "Food Market",
+    "knowledgeLevel": "Public",
+    "description": "A fragrant market area filled with roasted reef fish, sea-spice stew, fresh kelp bread, and exotic seasonings.",
+    "relatedNPCs": ["npc_marek_shellbrew", "npc_orrin_deepcurrent"]
+  },
+  {
+    "id": "market_artisans_row",
+    "areaNumber": 7,
+    "name": "Artisan's Row",
+    "parentLocation": "loc_silvered_market",
+    "type": "Crafting Row",
+    "knowledgeLevel": "Public",
+    "description": "A busy crafting area filled with hammering metal, carving tools, enchanted looms, and alchemical equipment.",
+    "relatedShops": [
+      "shop_coral_forge_armory",
+      "shop_current_cog_tinkery",
+      "shop_mooncurrent_tailors",
+      "shop_pearlroot_apothecary"
+    ]
+  },
+  {
+    "id": "market_black_market_alley",
+    "areaNumber": 8,
+    "name": "Black Market Alley",
+    "parentLocation": "loc_silvered_market",
+    "type": "Shady Market Alley",
+    "knowledgeLevel": "Restricted",
+    "description": "Narrow passageways twist between aging storefronts and dimly lit alcoves. The area is technically legal. Mostly.",
+    "dmSecret": "The recruits are instructed not to enter this district unless necessary. Future chapters make heavy use of this location."
+  },
+  {
+    "id": "market_information_kiosk",
+    "areaNumber": 9,
+    "name": "Information Kiosk",
+    "parentLocation": "loc_silvered_market",
+    "type": "Notice Board",
+    "knowledgeLevel": "Public",
+    "description": "A circular coral structure covered in notices, advertisements, missing property reports, and community announcements.",
+    "relatedSessions": ["session_02"],
+    "dmSecret": "The missing child notice appears here during Session 2."
+  },
+  {
+    "id": "market_gathering_steps",
+    "areaNumber": 10,
+    "name": "Gathering Steps",
+    "parentLocation": "loc_silvered_market",
+    "type": "Public Meeting Space",
+    "knowledgeLevel": "Public",
+    "description": "Wide marble steps descend into an open public meeting area where speeches, celebrations, festivals, and community announcements are regularly held.",
+    "dmSecret": "Future political events occur here."
+  },
+  {
+    "id": "market_algae_lantern_garden",
+    "areaNumber": 11,
+    "name": "Algae Lantern Garden",
+    "parentLocation": "loc_silvered_market",
+    "type": "Quiet Garden",
+    "knowledgeLevel": "Public",
+    "description": "A peaceful corner of the market illuminated by glowing blue and violet algae where citizens gather to relax away from the crowds.",
+    "relatedNPCs": ["npc_nella"],
+    "dmSecret": "Nella occasionally feeds fish here. This is an excellent location for quieter roleplay scenes."
+  },
+  {
+    "id": "market_merchant_guild_hall",
+    "areaNumber": 12,
+    "name": "Merchant Guild Hall",
+    "parentLocation": "loc_silvered_market",
+    "type": "Guild Hall",
+    "knowledgeLevel": "Public",
+    "description": "A magnificent domed structure where trade representatives negotiate contracts, regulate commerce, and settle disputes.",
+    "dmSecret": "Important later in the conspiracy storyline."
+  },
+  {
+    "id": "market_gilded_kelp",
+    "areaNumber": 13,
+    "name": "The Gilded Kelp",
+    "parentLocation": "loc_silvered_market",
+    "type": "Tavern",
+    "knowledgeLevel": "Public",
+    "description": "Atlantis' most popular tavern, filled with warm lantern light, laughter, music, and questionable decisions.",
+    "relatedNPCs": ["npc_brutus_blackfin"]
+  },
+  {
+    "id": "market_west_gate",
+    "areaNumber": 14,
+    "name": "West Gate",
+    "parentLocation": "loc_silvered_market",
+    "type": "Market Exit",
+    "knowledgeLevel": "Public",
+    "description": "A secondary market exit used by citizens traveling toward residential districts."
+  },
+  {
+    "id": "market_east_gate",
+    "areaNumber": 15,
+    "name": "East Gate",
+    "parentLocation": "loc_silvered_market",
+    "type": "Market Exit",
+    "knowledgeLevel": "Public",
+    "description": "A secondary market exit leading toward the dock districts and deeper portions of Atlantis."
+  }
+]
