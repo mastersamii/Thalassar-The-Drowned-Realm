@@ -1,0 +1,207 @@
+[
+  {
+    "id": "npc_cassia_pearlfin",
+    "name": "Cassia Pearlfin",
+    "race": "Sea Elf",
+    "gender": "Female",
+    "age": 24,
+    "height": "5'11\"",
+    "class": "Fighter",
+    "role": "Rival Squad Leader",
+    "knowledgeLevel": "Public",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "organization": "org_tidewarden_academy",
+    "currentLocation": "loc_barracks_tides",
+    "portrait": "assets/images/npcs/cassia-pearlfin.webp",
+    "themeSong": "song_guardians_of_the_deep",
+    "personality": [
+      "Confident",
+      "Competitive",
+      "Protective",
+      "Disciplined"
+    ],
+    "appearance": {
+      "hair": "Silver-blonde",
+      "eyes": "Turquoise",
+      "skin": "Pale blue"
+    },
+    "relationships": {
+      "bestFriend": "npc_selene_waveglass",
+      "mentor": "npc_thalric"
+    },
+    "firstAppearance": "session_01",
+    "dmSecret": "Cassia genuinely wants the recruits to succeed, even if she rarely shows it."
+  },
+  {
+    "id": "npc_brakk_deepjaw",
+    "name": "Brakk Deepjaw",
+    "race": "Sharkfolk",
+    "gender": "Male",
+    "age": 27,
+    "height": "7'2\"",
+    "class": "Barbarian",
+    "role": "Heavy Assault Specialist",
+    "knowledgeLevel": "Public",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "organization": "org_tidewarden_academy",
+    "currentLocation": "loc_training_grounds",
+    "portrait": "assets/images/npcs/brakk-deepjaw.webp",
+    "themeSong": "song_guardians_of_the_deep",
+    "personality": [
+      "Loud",
+      "Friendly",
+      "Competitive",
+      "Protective"
+    ],
+    "appearance": {
+      "skin": "Dark grey",
+      "eyes": "Black"
+    },
+    "relationships": {
+      "bestFriend": "npc_varko_tidewatch"
+    },
+    "firstAppearance": "session_01",
+    "dmSecret": "Brakk secretly enjoys baking and regularly visits the market before dawn."
+  },
+  {
+    "id": "npc_selene_waveglass",
+    "name": "Selene Waveglass",
+    "race": "Triton",
+    "gender": "Female",
+    "age": 22,
+    "height": "5'8\"",
+    "class": "Cleric",
+    "role": "Combat Medic",
+    "knowledgeLevel": "Public",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "organization": "org_tidewarden_academy",
+    "currentLocation": "loc_training_grounds",
+    "portrait": "assets/images/npcs/selene-waveglass.webp",
+    "themeSong": "song_guardians_of_the_deep",
+    "personality": [
+      "Calm",
+      "Compassionate",
+      "Optimistic",
+      "Intelligent"
+    ],
+    "relationships": {
+      "bestFriend": "npc_cassia_pearlfin"
+    },
+    "firstAppearance": "session_01",
+    "dmSecret": "Selene is one of the few recruits who questions official explanations when they don't make sense."
+  },
+  {
+    "id": "npc_varko_tidewatch",
+    "name": "Varko Tidewatch",
+    "race": "Locathah",
+    "gender": "Male",
+    "age": 29,
+    "height": "6'0\"",
+    "class": "Ranger",
+    "role": "Scout",
+    "knowledgeLevel": "Public",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "organization": "org_tidewarden_academy",
+    "currentLocation": "loc_training_grounds",
+    "portrait": "assets/images/npcs/varko-tidewatch.webp",
+    "themeSong": "song_guardians_of_the_deep",
+    "personality": [
+      "Quiet",
+      "Observant",
+      "Patient",
+      "Reliable"
+    ],
+    "relationships": {
+      "bestFriend": "npc_brakk_deepjaw"
+    },
+    "firstAppearance": "session_01",
+    "dmSecret": "Varko notices details others miss and quietly keeps a journal of unusual events."
+  },
+  {
+    "id": "npc_kessa_glowfin",
+    "name": "Kessa Glowfin",
+    "race": "Water Genasi",
+    "gender": "Female",
+    "age": 20,
+    "height": "5'6\"",
+    "class": "Sorcerer",
+    "role": "Arcane Specialist",
+    "knowledgeLevel": "Public",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "organization": "org_tidewarden_academy",
+    "currentLocation": "loc_training_grounds",
+    "portrait": "assets/images/npcs/kessa-glowfin.webp",
+    "themeSong": "song_guardians_of_the_deep",
+    "personality": [
+      "Curious",
+      "Energetic",
+      "Sarcastic",
+      "Inventive"
+    ],
+    "firstAppearance": "session_01",
+    "dmSecret": "Kessa loves experimenting with magic and occasionally causes harmless accidents around the academy."
+  },
+  {
+    "id": "npc_taryn_blackcurrent",
+    "name": "Taryn Blackcurrent",
+    "race": "Triton",
+    "gender": "Male",
+    "age": 26,
+    "height": "6'2\"",
+    "class": "Paladin",
+    "role": "Defender",
+    "knowledgeLevel": "Public",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "organization": "org_tidewarden_academy",
+    "currentLocation": "loc_training_grounds",
+    "portrait": "assets/images/npcs/taryn-blackcurrent.webp",
+    "themeSong": "song_guardians_of_the_deep",
+    "personality": [
+      "Honorable",
+      "Serious",
+      "Dependable",
+      "Protective"
+    ],
+    "firstAppearance": "session_01",
+    "dmSecret": "Taryn has an unwavering belief that Atlantis can always do the right thing, making later revelations especially difficult."
+  },
+  {
+    "id": "npc_lyra_moonreef",
+    "name": "Lyra Moonreef",
+    "race": "Water Genasi",
+    "gender": "Female",
+    "age": 23,
+    "height": "5'5\"",
+    "class": "Rogue",
+    "role": "Recon Specialist",
+    "knowledgeLevel": "Public",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "organization": "org_tidewarden_academy",
+    "currentLocation": "loc_training_grounds",
+    "portrait": "assets/images/npcs/lyra-moonreef.webp",
+    "themeSong": "song_guardians_of_the_deep",
+    "personality": [
+      "Adventurous",
+      "Quick-witted",
+      "Fearless",
+      "Kind"
+    ],
+    "relationships": {
+      "partnerBeforeCampaign": "pc_evaie"
+    },
+    "storyFlags": [
+      "Injured during Session 3 ambush",
+      "Never soul-swapped",
+      "Member of rival squad"
+    ],
+    "firstAppearance": "session_01",
+    "dmSecret": "Lyra has no idea Evaie's soul now inhabits another body. She only knows the person she loved came back... different."
+  }
+]
