@@ -1,0 +1,133 @@
+[
+  {
+    "id": "npc_king_aurelion_veyrath_ix",
+    "name": "King Aurelion Veyrath IX",
+    "title": "King of Atlantis and the Deep Realm",
+    "race": "Triton",
+    "gender": "Male",
+    "age": 186,
+    "height": "6'5\"",
+    "alignment": "Lawful Good",
+    "status": "Alive",
+    "faction": "faction_atlantean_crown",
+    "location": "loc_trident_palace",
+    "portrait": "assets/images/npcs/king-aurelion.webp",
+    "knowledgeLevel": "Public",
+    "description": "The beloved ruler of Atlantis. Calm, intelligent, and deeply respected by nearly every citizen of the Deep Realm.",
+    "appearance": {
+      "skin": "Deep sapphire blue",
+      "eyes": "Bright silver",
+      "hair": "Long white hair braided with gold rings",
+      "beard": "Neatly trimmed white beard",
+      "armor": "Royal ceremonial armor of blue coral, gold, and pearl",
+      "symbol": "Royal Trident"
+    },
+    "personality": [
+      "Wise",
+      "Patient",
+      "Compassionate",
+      "Diplomatic",
+      "Commanding"
+    ],
+    "relationships": {
+      "advisor": "npc_commander_vaeloria_stormcurrent",
+      "captain": "npc_captain_thalorin_tideborn"
+    },
+    "favoriteQuote": "A kingdom is measured not by its walls, but by how safely its people sleep.",
+    "publicReputation": "The greatest king Atlantis has known in generations.",
+    "dmSecret": "Aurelion genuinely believes he is protecting Atlantis. Whether he knows the full truth behind the conspiracy is left intentionally uncertain.",
+    "firstAppearance": "session_01"
+  },
+  {
+    "id": "npc_commander_vaeloria_stormcurrent",
+    "name": "Commander Vaeloria Stormcurrent",
+    "title": "Commander of the Tidewardens",
+    "race": "Triton",
+    "gender": "Female",
+    "age": 47,
+    "height": "6'1\"",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "location": "loc_tidewarden_headquarters",
+    "portrait": "assets/images/npcs/vaeloria.webp",
+    "knowledgeLevel": "Public",
+    "description": "Supreme commander of the Tidewardens and one of the most respected military leaders in Atlantis.",
+    "personality": [
+      "Disciplined",
+      "Protective",
+      "Strategic",
+      "Calm"
+    ],
+    "favoriteQuote": "Discipline saves lives long before courage ever has the chance.",
+    "dmSecret": "She has begun noticing inconsistencies within official investigations but has not yet uncovered the truth."
+  },
+  {
+    "id": "npc_captain_thalorin_tideborn",
+    "name": "Captain Thalorin Tideborn",
+    "title": "Captain of the Tidewardens",
+    "race": "Axolotl Folk",
+    "gender": "Male",
+    "age": 45,
+    "height": "6'6\"",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "location": "loc_tidewarden_headquarters",
+    "portrait": "assets/images/npcs/thalorin.webp",
+    "knowledgeLevel": "Public",
+    "description": "Veteran officer responsible for training and leading new Tidewarden recruits.",
+    "personality": [
+      "Protective",
+      "Observant",
+      "Patient",
+      "Honorable"
+    ],
+    "favoriteQuote": "Your rank means nothing if the people behind you don't trust you.",
+    "dmSecret": "Thalorin has quietly begun questioning orders coming from higher authorities."
+  },
+  {
+    "id": "npc_sergeant_thalric_tideborn",
+    "name": "Sergeant Thalric Tideborn",
+    "title": "Senior Academy Sergeant",
+    "race": "Triton",
+    "gender": "Male",
+    "age": 38,
+    "height": "6'4\"",
+    "status": "Alive",
+    "faction": "faction_tidewardens",
+    "location": "loc_training_grounds",
+    "portrait": "assets/images/npcs/thalric.webp",
+    "knowledgeLevel": "Public",
+    "description": "The senior drill instructor responsible for preparing recruits for active service.",
+    "personality": [
+      "Gruff",
+      "Protective",
+      "Loyal",
+      "Practical"
+    ],
+    "favoriteQuote": "I'd rather bruise your pride today than bury you tomorrow.",
+    "dmSecret": "Still carries guilt for losing a recruit squad years ago."
+  },
+  {
+    "id": "npc_king_alaric_stormwake_iv",
+    "name": "King Alaric Stormwake IV",
+    "title": "Storm King of the Surface Realm",
+    "race": "Human",
+    "gender": "Male",
+    "age": 54,
+    "height": "6'2\"",
+    "status": "Alive",
+    "faction": "faction_council_of_tides",
+    "location": "loc_surface_capital",
+    "portrait": "assets/images/npcs/alaric.webp",
+    "knowledgeLevel": "Public",
+    "description": "The ruler of the Surface Realm and symbolic leader of the Azure Sentinels.",
+    "personality": [
+      "Charismatic",
+      "Diplomatic",
+      "Confident",
+      "Pragmatic"
+    ],
+    "favoriteQuote": "The ocean separates kingdoms only until courage builds a bridge.",
+    "dmSecret": "Publicly supports peace with Atlantis, though many of his advisors do not."
+  }
+]
