@@ -1,9 +1,170 @@
 [
   {
+    "id": "atlantis-city",
+    "name": "Atlantis City Map",
+    "type": "City Map",
+    "unlocked": true,
+    "unlockedAt": "Session 1",
+    "image": "assets/maps/atlantis-city-map.webp",
+    "description": "The known city map of Atlantis. Add your actual map image at assets/maps/atlantis-city-map.webp.",
+    "tags": [
+      "Atlantis",
+      "City",
+      "Unlocked"
+    ],
+    "pins": [
+      {
+        "number": 1,
+        "title": "Trident Palace",
+        "type": "District",
+        "top": "25%",
+        "left": "50%",
+        "description": "The seat of King Aurelion Veyrath IX and the political heart of Atlantis."
+      },
+      {
+        "number": 2,
+        "title": "Tidewarden Headquarters",
+        "type": "Military",
+        "top": "38%",
+        "left": "42%",
+        "description": "The command center of the Tidewardens."
+      },
+      {
+        "number": 6,
+        "title": "Silvered Market",
+        "type": "Market",
+        "top": "56%",
+        "left": "50%",
+        "description": "The commercial center of Atlantis and the party's first patrol route."
+      },
+      {
+        "number": 11,
+        "title": "Barracks of Tides",
+        "type": "Academy",
+        "top": "72%",
+        "left": "38%",
+        "description": "Recruit housing where the party awakens at the beginning of the campaign."
+      },
+      {
+        "number": 12,
+        "title": "Coral Gardens",
+        "type": "Memorial",
+        "top": "60%",
+        "left": "65%",
+        "description": "A peaceful district for recreation, memorials, and public gathering spaces."
+      },
+      {
+        "number": 14,
+        "title": "The Deep Gate",
+        "type": "Gate",
+        "top": "78%",
+        "left": "70%",
+        "description": "The main entrance to Atlantis and the boundary between the city and the wider ocean."
+      }
+    ]
+  },
+  {
     "id": "silvered-market",
     "name": "Silvered Market",
+    "type": "District Map",
     "unlocked": true,
+    "unlockedAt": "Session 1",
     "image": "assets/maps/silvered-market.webp",
-    "description": "Unlocked after Session 1 market patrol."
+    "description": "The bustling market district where the party completed its first patrol and met Nella and Kella Tidehopper.",
+    "tags": [
+      "Market",
+      "Session 1",
+      "Nella"
+    ],
+    "pins": [
+      {
+        "number": 1,
+        "title": "Main Entrance",
+        "type": "Gate",
+        "top": "12%",
+        "left": "50%",
+        "description": "The northern entrance to the Silvered Market."
+      },
+      {
+        "number": 2,
+        "title": "Central Plaza",
+        "type": "Plaza",
+        "top": "45%",
+        "left": "50%",
+        "description": "The heart of the market where citizens gather beneath drifting lanterns."
+      },
+      {
+        "number": 7,
+        "title": "Artisan's Row",
+        "type": "Shops",
+        "top": "58%",
+        "left": "33%",
+        "description": "Home to Coral Forge Armory, Current & Cog Tinkery, Mooncurrent Tailors, and Pearlroot Apothecary."
+      },
+      {
+        "number": 9,
+        "title": "Information Kiosk",
+        "type": "Notice Board",
+        "top": "42%",
+        "left": "68%",
+        "description": "A coral notice board used for announcements, missing property reports, and community notices."
+      },
+      {
+        "number": 11,
+        "title": "Algae Lantern Garden",
+        "type": "Garden",
+        "top": "70%",
+        "left": "56%",
+        "description": "A quiet glowing garden where Nella sometimes feeds fish."
+      },
+      {
+        "number": 13,
+        "title": "The Gilded Kelp",
+        "type": "Tavern",
+        "top": "61%",
+        "left": "74%",
+        "description": "Atlantis' popular tavern filled with light, laughter, music, and questionable decisions."
+      }
+    ]
+  },
+  {
+    "id": "drowned-ward-tunnels",
+    "name": "Drowned Ward Tunnels",
+    "type": "Dungeon Map",
+    "unlocked": true,
+    "unlockedAt": "Session 2",
+    "image": "assets/maps/drowned-ward-tunnels.webp",
+    "description": "The underwater tunnels beneath the Drowned Ward where the party investigated Nella's disappearance.",
+    "tags": [
+      "Session 2",
+      "Drowned Ward",
+      "Nella"
+    ],
+    "pins": [
+      {
+        "number": 1,
+        "title": "Tunnel Entrance",
+        "type": "Entrance",
+        "top": "15%",
+        "left": "20%",
+        "description": "The route into the old maintenance tunnels."
+      },
+      {
+        "number": 2,
+        "title": "Collapsed Passage",
+        "type": "Hazard",
+        "top": "38%",
+        "left": "45%",
+        "description": "Damaged tunnel stone and debris block portions of the route."
+      },
+      {
+        "number": 3,
+        "title": "Old Maintenance Chamber",
+        "type": "Room",
+        "top": "62%",
+        "left": "52%",
+        "description": "A forgotten chamber beneath the Drowned Ward."
+      }
+    ]
   }
 ]
