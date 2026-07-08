@@ -233,3 +233,110 @@ html[data-theme="light"] .site-header{background:rgba(224,248,255,.82)}
   }
 }
 
+/* ---------- Maps Page ---------- */
+.map-archive {
+  display: grid;
+  gap: 22px;
+}
+
+.map-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.interactive-map-wrap {
+  position: relative;
+  width: 100%;
+  margin: 18px 0;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  overflow: hidden;
+  background: rgba(0,0,0,.25);
+}
+
+.interactive-map-wrap.large {
+  max-height: 82vh;
+  overflow: auto;
+}
+
+.interactive-map-image {
+  width: 100%;
+  display: block;
+}
+
+.map-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 2px solid var(--gold-bright);
+  background: rgba(216,181,109,.92);
+  color: #061421;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(54,214,208,.45);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.map-pin:hover {
+  transform: translate(-50%, -50%) scale(1.18);
+  box-shadow: 0 0 30px rgba(54,214,208,.85);
+}
+
+.map-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  padding: 22px;
+  background: rgba(0,0,0,.72);
+  backdrop-filter: blur(10px);
+}
+
+.map-modal.open {
+  display: grid;
+  place-items: center;
+}
+
+.map-modal-inner {
+  position: relative;
+  width: min(1200px, 100%);
+  max-height: 94vh;
+  overflow: auto;
+  padding: 26px;
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  background: var(--card);
+  box-shadow: 0 20px 80px rgba(0,0,0,.55);
+}
+
+.map-modal-close {
+  position: sticky;
+  top: 0;
+  float: right;
+  z-index: 3;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--gold);
+  color: #061421;
+  font-size: 1.6rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .map-card-header { display: block; }
+  .map-pin {
+    width: 28px;
+    height: 28px;
+    font-size: .75rem;
+  }
+  .map-modal { padding: 10px; }
+  .map-modal-inner { padding: 16px; }
+}
+
