@@ -41,7 +41,7 @@
         "number": 11,
         "title": "Barracks of Tides",
         "type": "Academy",
-        "top": "60%",
+        "top": "58%",
         "left": "65%",
         "description": "Recruit housing where the party awakens at the beginning of the campaign."
       },
@@ -49,7 +49,7 @@
         "number": 12,
         "title": "Coral Gardens",
         "type": "Memorial",
-        "top": "58%",
+        "top": "60%",
         "left": "65%",
         "description": "A peaceful district for recreation, memorials, and public gathering spaces."
       },
