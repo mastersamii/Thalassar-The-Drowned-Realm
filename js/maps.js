@@ -1,21 +1,18 @@
 "use strict";
 
-let unlockedMaps = [];
+document.addEventListener("DOMContentLoaded", loadAtlas);
 
-document.addEventListener("DOMContentLoaded", loadMaps);
-
-async function loadMaps() {
+async function loadAtlas() {
   const grid = document.getElementById("mapsGrid");
   if (!grid) return;
 
   try {
     const response = await fetch("data/maps.json");
     const maps = await response.json();
-    unlockedMaps = maps.filter((map) => map.unlocked);
+    const unlocked = maps.filter((map) => map.unlocked);
 
-    grid.innerHTML = unlockedMaps.map(renderMapCard).join("");
-    bindMapButtons();
-    bindModal();
+    grid.innerHTML = unlocked.map(renderMapCard).join("");
+    bindMapDetails();
   } catch (error) {
     grid.innerHTML = `
       <article class="card">
@@ -27,27 +24,28 @@ async function loadMaps() {
 }
 
 function renderMapCard(map) {
-  const pins = (map.pins || [])
-    .map((pin) => `
-      <button
-        class="map-pin"
-        style="top:${pin.top}; left:${pin.left};"
-        data-title="${pin.title}"
-        data-description="${pin.description}"
-        data-type="${pin.type || "Location"}"
-      >
-        ${pin.number || "•"}
-      </button>
-    `)
-    .join("");
-
   const tags = (map.tags || [])
     .map((tag) => `<span class="badge teal">${tag}</span>`)
     .join("");
 
+  const areas = (map.areas || [])
+    .map((area) => `
+      <article class="area-card searchable">
+        <div class="area-number">${area.number}</div>
+        <div>
+          <h4>${area.name}</h4>
+          <p>${area.description}</p>
+          ${area.shops?.length ? `<p><strong>Shops:</strong> ${area.shops.join(", ")}</p>` : ""}
+          ${area.npcs?.length ? `<p><strong>NPCs:</strong> ${area.npcs.join(", ")}</p>` : ""}
+          ${area.sessions?.length ? `<p><strong>Sessions:</strong> ${area.sessions.join(", ")}</p>` : ""}
+        </div>
+      </article>
+    `)
+    .join("");
+
   return `
-    <article class="card map-card searchable">
-      <div class="map-card-header">
+    <article class="card atlas-card searchable">
+      <div class="atlas-card-header">
         <div>
           <p class="eyebrow">${map.type}</p>
           <h3>${map.name}</h3>
@@ -58,85 +56,25 @@ function renderMapCard(map) {
       <p>${map.description}</p>
       <div class="tag-row">${tags}</div>
 
-      <div class="interactive-map-wrap">
-        <img class="interactive-map-image" src="${map.image}" alt="${map.name}" onerror="this.src='assets/maps/placeholder-map.webp'" />
-        ${pins}
-      </div>
+      <button class="btn secondary atlas-toggle" type="button">Open Map Entry</button>
 
-      <button class="btn secondary open-map-btn" data-map-id="${map.id}">
-        Open Large Map
-      </button>
+      <div class="atlas-details">
+        <div class="atlas-image-wrap">
+          <img class="atlas-image" src="${map.image}" alt="${map.name}" onerror="this.src='assets/maps/placeholder-map.webp'" />
+        </div>
+        <h3>Area Legend</h3>
+        <div class="area-list">${areas}</div>
+      </div>
     </article>
   `;
 }
 
-function bindMapButtons() {
-  document.querySelectorAll(".map-pin").forEach((pin) => {
-    pin.addEventListener("click", () => {
-      alert(`${pin.dataset.title}\n${pin.dataset.type}\n\n${pin.dataset.description}`);
-    });
-  });
-
-  document.querySelectorAll(".open-map-btn").forEach((button) => {
+function bindMapDetails() {
+  document.querySelectorAll(".atlas-toggle").forEach((button) => {
     button.addEventListener("click", () => {
-      const map = unlockedMaps.find((entry) => entry.id === button.dataset.mapId);
-      openMapModal(map);
+      const card = button.closest(".atlas-card");
+      card.classList.toggle("open");
+      button.textContent = card.classList.contains("open") ? "Close Map Entry" : "Open Map Entry";
     });
   });
-}
-
-function bindModal() {
-  const modal = document.getElementById("mapModal");
-  const close = document.getElementById("closeMapModal");
-  if (!modal || !close) return;
-
-  close.addEventListener("click", closeMapModal);
-  modal.addEventListener("click", (event) => {
-    if (event.target === modal) closeMapModal();
-  });
-}
-
-function openMapModal(map) {
-  const modal = document.getElementById("mapModal");
-  const content = document.getElementById("mapModalContent");
-  if (!modal || !content || !map) return;
-
-  const pins = (map.pins || [])
-    .map((pin) => `
-      <button
-        class="map-pin"
-        style="top:${pin.top}; left:${pin.left};"
-        data-title="${pin.title}"
-        data-description="${pin.description}"
-        data-type="${pin.type || "Location"}"
-      >
-        ${pin.number || "•"}
-      </button>
-    `)
-    .join("");
-
-  content.innerHTML = `
-    <h2>${map.name}</h2>
-    <p>${map.description}</p>
-    <div class="interactive-map-wrap large">
-      <img class="interactive-map-image" src="${map.image}" alt="${map.name}" />
-      ${pins}
-    </div>
-  `;
-
-  modal.classList.add("open");
-  modal.setAttribute("aria-hidden", "false");
-
-  content.querySelectorAll(".map-pin").forEach((pin) => {
-    pin.addEventListener("click", () => {
-      alert(`${pin.dataset.title}\n${pin.dataset.type}\n\n${pin.dataset.description}`);
-    });
-  });
-}
-
-function closeMapModal() {
-  const modal = document.getElementById("mapModal");
-  if (!modal) return;
-  modal.classList.remove("open");
-  modal.setAttribute("aria-hidden", "true");
 }
