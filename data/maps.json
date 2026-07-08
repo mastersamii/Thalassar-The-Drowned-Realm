@@ -5,7 +5,7 @@
     "type": "City Map",
     "unlocked": true,
     "unlockedAt": "Session 1",
-    "image": "assets/maps/atlantis-city-map.webp",
+    "image": "assets/maps/Atlantis-Map.png",
     "description": "The known city map of Atlantis. Add your actual map image at assets/maps/atlantis-city-map.webp.",
     "tags": [
       "Atlantis",
