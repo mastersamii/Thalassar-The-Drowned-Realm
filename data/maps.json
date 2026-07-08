@@ -6,7 +6,7 @@
     "unlocked": true,
     "unlockedAt": "Session 1",
     "image": "assets/maps/Atlantis-Map.png",
-    "description": "The known city map of Atlantis. Add your actual map image at assets/maps/atlantis-city-map.webp.",
+    "description": "The known city map of Atlantis.",
     "tags": [
       "Atlantis",
       "City",
